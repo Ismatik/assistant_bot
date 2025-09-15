@@ -1,0 +1,1090 @@
+2025-09-15 09:18:35,256 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 09:18:43,354 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 09:19:00,521 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 09:19:13,414 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 09:20:51,741 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 09:20:58,893 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 09:20:58,893 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 09:23:23,571 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 09:23:33,585 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 09:24:14,666 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 09:24:29,746 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 09:32:05,212 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 09:32:15,310 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 09:47:59,968 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 09:48:13,293 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 09:49:04,325 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: /start
+2025-09-15 09:49:04,953 - ERROR - handlers.messages_ai_handler - Error in ai_handles: name 'model' is not defined
+2025-09-15 09:49:05,256 - INFO - aiogram.event - Update id=103121452 is handled. Duration 931 ms by bot id=6839478389
+2025-09-15 09:49:15,080 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: asdasdas
+2025-09-15 09:49:15,288 - ERROR - handlers.messages_ai_handler - Error in ai_handles: name 'model' is not defined
+2025-09-15 09:49:15,425 - INFO - aiogram.event - Update id=103121453 is handled. Duration 344 ms by bot id=6839478389
+2025-09-15 09:51:56,895 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 09:51:56,895 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 09:51:56,896 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 09:53:14,323 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 09:53:15,664 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 09:53:17,304 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: /start
+2025-09-15 09:53:17,912 - ERROR - handlers.messages_ai_handler - Error in ai_handles: module 'aiogram.types' has no attribute 'GenerrateContentConfig'
+2025-09-15 09:53:18,225 - INFO - aiogram.event - Update id=103121454 is handled. Duration 921 ms by bot id=6839478389
+2025-09-15 09:54:40,284 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 09:54:40,284 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 09:54:40,284 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 09:59:55,989 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 10:00:06,125 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 10:02:52,806 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 10:03:07,821 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 10:12:21,731 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 10:12:28,817 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 10:12:28,930 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: /start
+2025-09-15 10:12:28,930 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: hello?
+2025-09-15 10:12:29,278 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 10:12:29,928 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent "HTTP/1.1 404 Not Found"
+2025-09-15 10:12:29,928 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2025-09-15 10:12:29,929 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 10:12:30,094 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent "HTTP/1.1 404 Not Found"
+2025-09-15 10:12:30,095 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2025-09-15 10:12:30,098 - INFO - aiogram.event - Update id=103121455 is handled. Duration 1168 ms by bot id=6839478389
+2025-09-15 10:12:30,248 - INFO - aiogram.event - Update id=103121456 is handled. Duration 1318 ms by bot id=6839478389
+2025-09-15 10:15:37,165 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 10:15:37,166 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 10:15:37,166 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 10:15:41,404 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 10:15:47,041 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 10:15:47,293 - INFO - aiogram.event - Update id=103121457 is handled. Duration 0 ms by bot id=6839478389
+2025-09-15 10:18:45,240 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 10:18:45,241 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 10:18:45,241 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 10:21:55,234 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 10:21:56,464 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 10:21:58,208 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: asdadsa
+2025-09-15 10:21:58,823 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 10:22:07,762 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent "HTTP/1.1 404 Not Found"
+2025-09-15 10:22:07,762 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2025-09-15 10:22:08,043 - INFO - aiogram.event - Update id=103121458 is handled. Duration 9835 ms by bot id=6839478389
+2025-09-15 10:24:49,175 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 10:24:49,175 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 10:24:49,175 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 10:24:53,931 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 10:25:08,914 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 10:25:20,474 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Hello, any connection?
+2025-09-15 10:25:21,318 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 10:25:36,324 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 10:25:36,325 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 10:25:36,967 - INFO - aiogram.event - Update id=103121459 is handled. Duration 16493 ms by bot id=6839478389
+2025-09-15 10:27:14,146 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: I have added you to my own telegram bot, so it seems to work, but my button start is not, idk why
+2025-09-15 10:27:14,303 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 10:27:46,814 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 10:27:46,814 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 10:27:47,432 - INFO - aiogram.event - Update id=103121460 is not handled. Duration 33286 ms by bot id=6839478389
+2025-09-15 10:27:47,432 - ERROR - aiogram.event - Cause exception while process update id=103121460 by bot id=6839478389
+TelegramBadRequest: Telegram server says - Bad Request: message is too long
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 47, in ai_handler_message
+    await message.answer(ai_response)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is too long
+2025-09-15 10:28:58,089 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: I have added you to my tg bot, you understand?
+2025-09-15 10:28:58,372 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 10:29:13,052 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 10:29:13,053 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 10:29:13,182 - INFO - aiogram.event - Update id=103121461 is handled. Duration 15093 ms by bot id=6839478389
+2025-09-15 10:30:20,116 - INFO - aiogram.event - Update id=103121462 is handled. Duration 0 ms by bot id=6839478389
+2025-09-15 10:31:33,541 - INFO - handlers.messages_ai_handler - User 5881201207 sent prompt: Hi. Could you please help me to find music Dua Lipa - Love again
+2025-09-15 10:31:33,848 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 10:31:51,662 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 10:31:51,663 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 10:31:52,035 - INFO - aiogram.event - Update id=103121463 is handled. Duration 18494 ms by bot id=6839478389
+2025-09-15 10:32:45,734 - INFO - handlers.messages_ai_handler - User 5881201207 sent prompt: Ok. Next music Ariana Grande - Thank you, next
+2025-09-15 10:32:46,038 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 10:33:10,927 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 10:33:10,928 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 10:33:11,542 - INFO - aiogram.event - Update id=103121464 is handled. Duration 25808 ms by bot id=6839478389
+2025-09-15 10:33:19,530 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: You understand correctly, i am facing difficulties tho, with managing buttons
+2025-09-15 10:33:19,837 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 10:33:52,504 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 10:33:52,505 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 10:33:52,709 - INFO - handlers.messages_ai_handler - User 5881201207 sent prompt: Could you please send me link to this song?
+2025-09-15 10:33:53,016 - INFO - aiogram.event - Update id=103121465 is not handled. Duration 33486 ms by bot id=6839478389
+2025-09-15 10:33:53,016 - ERROR - aiogram.event - Cause exception while process update id=103121465 by bot id=6839478389
+TelegramBadRequest: Telegram server says - Bad Request: message is too long
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 47, in ai_handler_message
+    await message.answer(ai_response)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is too long
+2025-09-15 10:33:53,222 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 10:34:01,925 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 10:34:01,926 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 10:34:02,232 - INFO - aiogram.event - Update id=103121466 is handled. Duration 9523 ms by bot id=6839478389
+2025-09-15 10:34:49,530 - INFO - handlers.messages_ai_handler - User 5881201207 sent prompt: Ariana Grande - Thank you, next
+2025-09-15 10:34:49,839 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 10:35:24,851 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 10:35:24,851 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 10:35:25,468 - INFO - aiogram.event - Update id=103121467 is not handled. Duration 35938 ms by bot id=6839478389
+2025-09-15 10:35:25,468 - ERROR - aiogram.event - Cause exception while process update id=103121467 by bot id=6839478389
+TelegramBadRequest: Telegram server says - Bad Request: message is too long
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 47, in ai_handler_message
+    await message.answer(ai_response)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is too long
+2025-09-15 10:35:51,877 - INFO - handlers.messages_ai_handler - User 5881201207 sent prompt: Ariana Grande - Thank you, next
+2025-09-15 10:35:52,183 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 10:36:15,832 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 10:36:15,833 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 10:36:16,326 - INFO - aiogram.event - Update id=103121468 is not handled. Duration 24449 ms by bot id=6839478389
+2025-09-15 10:36:16,326 - ERROR - aiogram.event - Cause exception while process update id=103121468 by bot id=6839478389
+TelegramBadRequest: Telegram server says - Bad Request: message is too long
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 47, in ai_handler_message
+    await message.answer(ai_response)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is too long
+2025-09-15 10:36:24,756 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 10:36:24,757 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 10:36:24,757 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 11:38:36,924 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 11:38:43,253 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 11:38:48,785 - INFO - aiogram.event - Update id=103121469 is handled. Duration 0 ms by bot id=6839478389
+2025-09-15 11:41:37,096 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 11:41:37,096 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 11:41:37,097 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 11:41:41,235 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 11:41:42,448 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 11:41:46,219 - INFO - aiogram.event - Update id=103121470 is handled. Duration 0 ms by bot id=6839478389
+2025-09-15 11:43:08,710 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 11:43:08,710 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 11:43:08,710 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 11:43:11,689 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 11:43:13,274 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 11:43:16,964 - INFO - handlers.messages_ai_handler - User 631886740 started the bot.
+2025-09-15 11:43:17,575 - INFO - aiogram.event - Update id=103121471 is handled. Duration 611 ms by bot id=6839478389
+2025-09-15 11:48:52,592 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 11:48:53,636 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 11:48:54,254 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:48:54,254 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 11:48:58,659 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:48:58,659 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 11:49:00,086 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:49:00,086 - WARNING - aiogram.dispatcher - Sleep for 1.396433 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 11:49:05,005 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:49:05,005 - WARNING - aiogram.dispatcher - Sleep for 1.310485 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 11:49:06,541 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:49:06,541 - WARNING - aiogram.dispatcher - Sleep for 1.870827 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 11:49:11,157 - INFO - aiogram.dispatcher - Connection established (tryings = 3, bot id = 6839478389)
+2025-09-15 11:49:11,158 - INFO - handlers.messages_ai_handler - User 631886740 started the bot.
+2025-09-15 11:49:11,458 - INFO - aiogram.event - Update id=103121472 is handled. Duration 300 ms by bot id=6839478389
+2025-09-15 11:49:11,759 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:49:11,759 - WARNING - aiogram.dispatcher - Sleep for 1.789135 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 11:49:13,913 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:49:13,913 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 11:49:18,340 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:49:18,340 - WARNING - aiogram.dispatcher - Sleep for 2.295481 seconds and try again... (tryings = 3, bot id = 6839478389)
+2025-09-15 11:49:20,979 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:49:20,979 - WARNING - aiogram.dispatcher - Sleep for 1.422024 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 11:49:25,586 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:49:25,586 - WARNING - aiogram.dispatcher - Sleep for 3.008075 seconds and try again... (tryings = 4, bot id = 6839478389)
+2025-09-15 11:49:28,966 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:49:28,966 - WARNING - aiogram.dispatcher - Sleep for 1.959343 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 11:49:32,447 - INFO - aiogram.dispatcher - Connection established (tryings = 3, bot id = 6839478389)
+2025-09-15 11:49:32,449 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Do you save chat history?
+2025-09-15 11:49:32,653 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 11:49:34,340 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:49:34,340 - WARNING - aiogram.dispatcher - Sleep for 3.830715 seconds and try again... (tryings = 5, bot id = 6839478389)
+2025-09-15 11:49:48,292 - INFO - aiogram.dispatcher - Connection established (tryings = 6, bot id = 6839478389)
+2025-09-15 11:49:58,340 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 11:49:58,341 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 11:49:58,341 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:49:58,341 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 11:49:59,071 - INFO - aiogram.event - Update id=103121473 is handled. Duration 26622 ms by bot id=6839478389
+2025-09-15 11:49:59,689 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:49:59,689 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 11:50:03,987 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:03,987 - WARNING - aiogram.dispatcher - Sleep for 1.382699 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 11:50:05,825 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:05,825 - WARNING - aiogram.dispatcher - Sleep for 1.223360 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 11:50:10,308 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:10,308 - WARNING - aiogram.dispatcher - Sleep for 1.656587 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 11:50:12,281 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:12,281 - WARNING - aiogram.dispatcher - Sleep for 1.493952 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 11:50:17,190 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:17,191 - WARNING - aiogram.dispatcher - Sleep for 2.058082 seconds and try again... (tryings = 3, bot id = 6839478389)
+2025-09-15 11:50:19,649 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:19,649 - WARNING - aiogram.dispatcher - Sleep for 1.783067 seconds and try again... (tryings = 3, bot id = 6839478389)
+2025-09-15 11:50:24,670 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:24,670 - WARNING - aiogram.dispatcher - Sleep for 2.578130 seconds and try again... (tryings = 4, bot id = 6839478389)
+2025-09-15 11:50:27,719 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:27,719 - WARNING - aiogram.dispatcher - Sleep for 2.468134 seconds and try again... (tryings = 4, bot id = 6839478389)
+2025-09-15 11:50:30,507 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:30,507 - WARNING - aiogram.dispatcher - Sleep for 3.334522 seconds and try again... (tryings = 5, bot id = 6839478389)
+2025-09-15 11:50:34,091 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:34,091 - WARNING - aiogram.dispatcher - Sleep for 3.067448 seconds and try again... (tryings = 5, bot id = 6839478389)
+2025-09-15 11:50:37,465 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:37,465 - WARNING - aiogram.dispatcher - Sleep for 4.385829 seconds and try again... (tryings = 6, bot id = 6839478389)
+2025-09-15 11:50:42,308 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:42,308 - WARNING - aiogram.dispatcher - Sleep for 3.992107 seconds and try again... (tryings = 6, bot id = 6839478389)
+2025-09-15 11:50:46,480 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:46,480 - WARNING - aiogram.dispatcher - Sleep for 5.122955 seconds and try again... (tryings = 7, bot id = 6839478389)
+2025-09-15 11:50:51,908 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:51,908 - WARNING - aiogram.dispatcher - Sleep for 5.178286 seconds and try again... (tryings = 7, bot id = 6839478389)
+2025-09-15 11:50:57,432 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:50:57,432 - WARNING - aiogram.dispatcher - Sleep for 4.783013 seconds and try again... (tryings = 8, bot id = 6839478389)
+2025-09-15 11:51:02,557 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:51:02,557 - WARNING - aiogram.dispatcher - Sleep for 5.007141 seconds and try again... (tryings = 8, bot id = 6839478389)
+2025-09-15 11:51:07,882 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:51:07,882 - WARNING - aiogram.dispatcher - Sleep for 5.135680 seconds and try again... (tryings = 9, bot id = 6839478389)
+2025-09-15 11:51:13,410 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:51:13,411 - WARNING - aiogram.dispatcher - Sleep for 5.014920 seconds and try again... (tryings = 9, bot id = 6839478389)
+2025-09-15 11:51:18,735 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:51:18,735 - WARNING - aiogram.dispatcher - Sleep for 5.096451 seconds and try again... (tryings = 10, bot id = 6839478389)
+2025-09-15 11:51:24,162 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:51:24,162 - WARNING - aiogram.dispatcher - Sleep for 4.933549 seconds and try again... (tryings = 10, bot id = 6839478389)
+2025-09-15 11:51:29,386 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:51:29,386 - WARNING - aiogram.dispatcher - Sleep for 4.941901 seconds and try again... (tryings = 11, bot id = 6839478389)
+2025-09-15 11:51:34,611 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:51:34,611 - WARNING - aiogram.dispatcher - Sleep for 5.082336 seconds and try again... (tryings = 11, bot id = 6839478389)
+2025-09-15 11:51:40,132 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:51:40,132 - WARNING - aiogram.dispatcher - Sleep for 4.818054 seconds and try again... (tryings = 12, bot id = 6839478389)
+2025-09-15 11:51:45,359 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:51:45,359 - WARNING - aiogram.dispatcher - Sleep for 4.976897 seconds and try again... (tryings = 12, bot id = 6839478389)
+2025-09-15 11:51:50,582 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:51:50,582 - WARNING - aiogram.dispatcher - Sleep for 5.039419 seconds and try again... (tryings = 13, bot id = 6839478389)
+2025-09-15 11:51:56,112 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:51:56,112 - WARNING - aiogram.dispatcher - Sleep for 5.041467 seconds and try again... (tryings = 13, bot id = 6839478389)
+2025-09-15 11:52:01,640 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:52:01,640 - WARNING - aiogram.dispatcher - Sleep for 4.994208 seconds and try again... (tryings = 14, bot id = 6839478389)
+2025-09-15 11:52:06,862 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:52:06,862 - WARNING - aiogram.dispatcher - Sleep for 4.868112 seconds and try again... (tryings = 14, bot id = 6839478389)
+2025-09-15 11:52:12,085 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:52:12,085 - WARNING - aiogram.dispatcher - Sleep for 4.952044 seconds and try again... (tryings = 15, bot id = 6839478389)
+2025-09-15 11:52:17,609 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:52:17,609 - WARNING - aiogram.dispatcher - Sleep for 4.933957 seconds and try again... (tryings = 15, bot id = 6839478389)
+2025-09-15 11:52:22,836 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:52:22,836 - WARNING - aiogram.dispatcher - Sleep for 4.903334 seconds and try again... (tryings = 16, bot id = 6839478389)
+2025-09-15 11:52:28,058 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:52:28,058 - WARNING - aiogram.dispatcher - Sleep for 5.118236 seconds and try again... (tryings = 16, bot id = 6839478389)
+2025-09-15 11:52:33,588 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:52:33,588 - WARNING - aiogram.dispatcher - Sleep for 5.078619 seconds and try again... (tryings = 17, bot id = 6839478389)
+2025-09-15 11:52:39,117 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:52:39,117 - WARNING - aiogram.dispatcher - Sleep for 5.056766 seconds and try again... (tryings = 17, bot id = 6839478389)
+2025-09-15 11:52:43,743 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 11:52:43,743 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 11:52:43,743 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 11:52:47,028 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 11:52:47,909 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 11:52:48,028 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:52:48,028 - WARNING - aiogram.dispatcher - Sleep for 5.150072 seconds and try again... (tryings = 18, bot id = 6839478389)
+2025-09-15 11:52:53,554 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:52:53,554 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 11:52:58,164 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:52:58,164 - WARNING - aiogram.dispatcher - Sleep for 4.951554 seconds and try again... (tryings = 19, bot id = 6839478389)
+2025-09-15 11:53:03,390 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:53:03,390 - WARNING - aiogram.dispatcher - Sleep for 1.249164 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 11:53:07,993 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:53:07,994 - WARNING - aiogram.dispatcher - Sleep for 4.768474 seconds and try again... (tryings = 20, bot id = 6839478389)
+2025-09-15 11:53:13,215 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:53:13,215 - WARNING - aiogram.dispatcher - Sleep for 1.803856 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 11:53:18,340 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:53:18,340 - WARNING - aiogram.dispatcher - Sleep for 4.940818 seconds and try again... (tryings = 21, bot id = 6839478389)
+2025-09-15 11:53:23,640 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:53:23,640 - WARNING - aiogram.dispatcher - Sleep for 2.423352 seconds and try again... (tryings = 3, bot id = 6839478389)
+2025-09-15 11:53:29,493 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:53:29,493 - WARNING - aiogram.dispatcher - Sleep for 4.986092 seconds and try again... (tryings = 22, bot id = 6839478389)
+2025-09-15 11:53:34,511 - INFO - aiogram.dispatcher - Connection established (tryings = 4, bot id = 6839478389)
+2025-09-15 11:53:34,512 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What did I ask previously?
+2025-09-15 11:53:34,719 - INFO - aiogram.dispatcher - Connection established (tryings = 23, bot id = 6839478389)
+2025-09-15 11:53:34,720 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What did I ask previously?
+2025-09-15 11:53:35,026 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:53:35,026 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 11:53:35,027 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 11:53:35,147 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 11:53:46,089 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 11:53:46,089 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 11:53:46,308 - INFO - aiogram.event - Update id=103121474 is handled. Duration 11588 ms by bot id=6839478389
+2025-09-15 11:53:49,153 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 11:53:49,154 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 11:53:49,464 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:53:49,464 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 11:53:49,465 - INFO - aiogram.event - Update id=103121474 is handled. Duration 14953 ms by bot id=6839478389
+2025-09-15 11:53:53,765 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:53:53,765 - WARNING - aiogram.dispatcher - Sleep for 1.175182 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 11:53:55,301 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:53:55,301 - WARNING - aiogram.dispatcher - Sleep for 1.177488 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 11:53:59,908 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:53:59,908 - WARNING - aiogram.dispatcher - Sleep for 1.582118 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 11:54:01,923 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:54:01,923 - WARNING - aiogram.dispatcher - Sleep for 1.651377 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 11:54:06,974 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:54:06,974 - WARNING - aiogram.dispatcher - Sleep for 2.016727 seconds and try again... (tryings = 3, bot id = 6839478389)
+2025-09-15 11:54:09,431 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:54:09,431 - WARNING - aiogram.dispatcher - Sleep for 2.145811 seconds and try again... (tryings = 3, bot id = 6839478389)
+2025-09-15 11:54:14,958 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:54:14,958 - WARNING - aiogram.dispatcher - Sleep for 2.516529 seconds and try again... (tryings = 4, bot id = 6839478389)
+2025-09-15 11:54:17,824 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:54:17,824 - WARNING - aiogram.dispatcher - Sleep for 2.929276 seconds and try again... (tryings = 4, bot id = 6839478389)
+2025-09-15 11:54:21,105 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:54:21,105 - WARNING - aiogram.dispatcher - Sleep for 3.488816 seconds and try again... (tryings = 5, bot id = 6839478389)
+2025-09-15 11:54:25,099 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:54:25,099 - WARNING - aiogram.dispatcher - Sleep for 3.890187 seconds and try again... (tryings = 5, bot id = 6839478389)
+2025-09-15 11:54:29,399 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:54:29,399 - WARNING - aiogram.dispatcher - Sleep for 4.641680 seconds and try again... (tryings = 6, bot id = 6839478389)
+2025-09-15 11:54:34,519 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:54:34,519 - WARNING - aiogram.dispatcher - Sleep for 4.867875 seconds and try again... (tryings = 6, bot id = 6839478389)
+2025-09-15 11:54:39,844 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:54:39,844 - WARNING - aiogram.dispatcher - Sleep for 4.932341 seconds and try again... (tryings = 7, bot id = 6839478389)
+2025-09-15 11:54:45,373 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:54:45,373 - WARNING - aiogram.dispatcher - Sleep for 4.933408 seconds and try again... (tryings = 7, bot id = 6839478389)
+2025-09-15 11:54:50,596 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:54:50,596 - WARNING - aiogram.dispatcher - Sleep for 4.999717 seconds and try again... (tryings = 8, bot id = 6839478389)
+2025-09-15 11:54:56,125 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:54:56,125 - WARNING - aiogram.dispatcher - Sleep for 4.901999 seconds and try again... (tryings = 8, bot id = 6839478389)
+2025-09-15 11:55:01,343 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:55:01,343 - WARNING - aiogram.dispatcher - Sleep for 4.808921 seconds and try again... (tryings = 9, bot id = 6839478389)
+2025-09-15 11:55:06,569 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:55:06,569 - WARNING - aiogram.dispatcher - Sleep for 5.031496 seconds and try again... (tryings = 9, bot id = 6839478389)
+2025-09-15 11:55:12,099 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:55:12,099 - WARNING - aiogram.dispatcher - Sleep for 5.097195 seconds and try again... (tryings = 10, bot id = 6839478389)
+2025-09-15 11:55:17,630 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:55:17,630 - WARNING - aiogram.dispatcher - Sleep for 4.962426 seconds and try again... (tryings = 10, bot id = 6839478389)
+2025-09-15 11:55:22,850 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:55:22,850 - WARNING - aiogram.dispatcher - Sleep for 4.921628 seconds and try again... (tryings = 11, bot id = 6839478389)
+2025-09-15 11:55:28,074 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:55:28,074 - WARNING - aiogram.dispatcher - Sleep for 5.065866 seconds and try again... (tryings = 11, bot id = 6839478389)
+2025-09-15 11:55:33,602 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:55:33,602 - WARNING - aiogram.dispatcher - Sleep for 5.049654 seconds and try again... (tryings = 12, bot id = 6839478389)
+2025-09-15 11:55:38,834 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:55:38,834 - WARNING - aiogram.dispatcher - Sleep for 4.955241 seconds and try again... (tryings = 12, bot id = 6839478389)
+2025-09-15 11:55:44,323 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:55:44,323 - WARNING - aiogram.dispatcher - Sleep for 4.760171 seconds and try again... (tryings = 13, bot id = 6839478389)
+2025-09-15 11:55:49,264 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:55:49,264 - WARNING - aiogram.dispatcher - Sleep for 5.161836 seconds and try again... (tryings = 13, bot id = 6839478389)
+2025-09-15 11:55:54,799 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:55:54,800 - WARNING - aiogram.dispatcher - Sleep for 4.893562 seconds and try again... (tryings = 14, bot id = 6839478389)
+2025-09-15 11:56:00,021 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:56:00,021 - WARNING - aiogram.dispatcher - Sleep for 4.761380 seconds and try again... (tryings = 14, bot id = 6839478389)
+2025-09-15 11:56:05,243 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:56:05,243 - WARNING - aiogram.dispatcher - Sleep for 5.054044 seconds and try again... (tryings = 15, bot id = 6839478389)
+2025-09-15 11:56:10,467 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:56:10,467 - WARNING - aiogram.dispatcher - Sleep for 5.282264 seconds and try again... (tryings = 15, bot id = 6839478389)
+2025-09-15 11:56:15,863 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:56:15,863 - WARNING - aiogram.dispatcher - Sleep for 4.942194 seconds and try again... (tryings = 16, bot id = 6839478389)
+2025-09-15 11:56:20,922 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:56:20,922 - WARNING - aiogram.dispatcher - Sleep for 5.102829 seconds and try again... (tryings = 16, bot id = 6839478389)
+2025-09-15 11:56:26,307 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:56:26,307 - WARNING - aiogram.dispatcher - Sleep for 5.058123 seconds and try again... (tryings = 17, bot id = 6839478389)
+2025-09-15 11:56:31,661 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:56:31,661 - WARNING - aiogram.dispatcher - Sleep for 4.980414 seconds and try again... (tryings = 17, bot id = 6839478389)
+2025-09-15 11:56:36,759 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:56:36,760 - WARNING - aiogram.dispatcher - Sleep for 4.894213 seconds and try again... (tryings = 18, bot id = 6839478389)
+2025-09-15 11:56:42,106 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:56:42,106 - WARNING - aiogram.dispatcher - Sleep for 5.008903 seconds and try again... (tryings = 18, bot id = 6839478389)
+2025-09-15 11:56:47,635 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:56:47,635 - WARNING - aiogram.dispatcher - Sleep for 4.888875 seconds and try again... (tryings = 19, bot id = 6839478389)
+2025-09-15 11:56:52,751 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:56:52,751 - WARNING - aiogram.dispatcher - Sleep for 4.996729 seconds and try again... (tryings = 19, bot id = 6839478389)
+2025-09-15 11:56:58,080 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:56:58,080 - WARNING - aiogram.dispatcher - Sleep for 4.952899 seconds and try again... (tryings = 20, bot id = 6839478389)
+2025-09-15 11:57:03,157 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:57:03,157 - WARNING - aiogram.dispatcher - Sleep for 4.910586 seconds and try again... (tryings = 20, bot id = 6839478389)
+2025-09-15 11:57:08,325 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:57:08,325 - WARNING - aiogram.dispatcher - Sleep for 4.972603 seconds and try again... (tryings = 21, bot id = 6839478389)
+2025-09-15 11:57:13,420 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:57:13,420 - WARNING - aiogram.dispatcher - Sleep for 4.829715 seconds and try again... (tryings = 21, bot id = 6839478389)
+2025-09-15 11:57:16,205 - INFO - aiogram.dispatcher - Connection established (tryings = 22, bot id = 6839478389)
+2025-09-15 11:57:16,206 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Wasnt it "Do you save chat history"?
+2025-09-15 11:57:16,716 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 11:57:28,453 - INFO - aiogram.dispatcher - Connection established (tryings = 22, bot id = 6839478389)
+2025-09-15 11:57:38,011 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 11:57:38,011 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 11:57:38,012 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:57:38,012 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 11:57:38,473 - INFO - aiogram.event - Update id=103121475 is handled. Duration 22268 ms by bot id=6839478389
+2025-09-15 11:57:39,546 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:57:39,547 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 11:57:43,661 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:57:43,661 - WARNING - aiogram.dispatcher - Sleep for 1.387724 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 11:57:45,388 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:57:45,388 - WARNING - aiogram.dispatcher - Sleep for 1.134758 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 11:57:49,684 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:57:49,684 - WARNING - aiogram.dispatcher - Sleep for 1.918925 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 11:57:51,726 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:57:51,726 - WARNING - aiogram.dispatcher - Sleep for 1.639730 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 11:57:56,754 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:57:56,754 - WARNING - aiogram.dispatcher - Sleep for 2.558736 seconds and try again... (tryings = 3, bot id = 6839478389)
+2025-09-15 11:57:59,518 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:57:59,519 - WARNING - aiogram.dispatcher - Sleep for 2.144466 seconds and try again... (tryings = 3, bot id = 6839478389)
+2025-09-15 11:58:05,049 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:58:05,049 - WARNING - aiogram.dispatcher - Sleep for 3.399403 seconds and try again... (tryings = 4, bot id = 6839478389)
+2025-09-15 11:58:08,734 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:58:08,734 - WARNING - aiogram.dispatcher - Sleep for 2.648247 seconds and try again... (tryings = 4, bot id = 6839478389)
+2025-09-15 11:58:14,606 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:58:14,606 - WARNING - aiogram.dispatcher - Sleep for 4.217554 seconds and try again... (tryings = 5, bot id = 6839478389)
+2025-09-15 11:58:19,179 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:58:19,179 - WARNING - aiogram.dispatcher - Sleep for 3.490005 seconds and try again... (tryings = 5, bot id = 6839478389)
+2025-09-15 11:58:23,172 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:58:23,173 - WARNING - aiogram.dispatcher - Sleep for 5.016402 seconds and try again... (tryings = 6, bot id = 6839478389)
+2025-09-15 11:58:28,399 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:58:28,399 - WARNING - aiogram.dispatcher - Sleep for 4.542757 seconds and try again... (tryings = 6, bot id = 6839478389)
+2025-09-15 11:58:33,309 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:58:33,309 - WARNING - aiogram.dispatcher - Sleep for 5.004844 seconds and try again... (tryings = 7, bot id = 6839478389)
+2025-09-15 11:58:37,548 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 11:58:37,549 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 11:58:37,549 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 11:58:43,135 - INFO - aiogram.dispatcher - Connection established (tryings = 7, bot id = 6839478389)
+2025-09-15 11:59:53,597 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 11:59:54,724 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 11:59:55,026 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:59:55,027 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 11:59:59,370 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 11:59:59,370 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 12:00:00,871 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:00,871 - WARNING - aiogram.dispatcher - Sleep for 1.274170 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 12:00:05,478 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:05,479 - WARNING - aiogram.dispatcher - Sleep for 1.167247 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 12:00:06,926 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:06,926 - WARNING - aiogram.dispatcher - Sleep for 1.762070 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 12:00:07,323 - INFO - aiogram.dispatcher - Connection established (tryings = 2, bot id = 6839478389)
+2025-09-15 12:00:07,324 - INFO - aiogram.event - Update id=103121476 is handled. Duration 0 ms by bot id=6839478389
+2025-09-15 12:00:11,939 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:11,939 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 12:00:13,313 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:13,313 - WARNING - aiogram.dispatcher - Sleep for 2.255192 seconds and try again... (tryings = 3, bot id = 6839478389)
+2025-09-15 12:00:18,737 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:18,737 - WARNING - aiogram.dispatcher - Sleep for 1.284971 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 12:00:20,136 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:20,137 - WARNING - aiogram.dispatcher - Sleep for 2.868103 seconds and try again... (tryings = 4, bot id = 6839478389)
+2025-09-15 12:00:26,307 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:26,308 - WARNING - aiogram.dispatcher - Sleep for 1.686197 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 12:00:28,541 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:28,541 - WARNING - aiogram.dispatcher - Sleep for 3.746098 seconds and try again... (tryings = 5, bot id = 6839478389)
+2025-09-15 12:00:32,433 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:32,433 - WARNING - aiogram.dispatcher - Sleep for 2.177179 seconds and try again... (tryings = 3, bot id = 6839478389)
+2025-09-15 12:00:37,729 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:37,729 - WARNING - aiogram.dispatcher - Sleep for 4.670999 seconds and try again... (tryings = 6, bot id = 6839478389)
+2025-09-15 12:00:42,986 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:42,986 - WARNING - aiogram.dispatcher - Sleep for 2.893790 seconds and try again... (tryings = 4, bot id = 6839478389)
+2025-09-15 12:00:45,999 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:45,999 - WARNING - aiogram.dispatcher - Sleep for 4.990338 seconds and try again... (tryings = 7, bot id = 6839478389)
+2025-09-15 12:00:50,057 - INFO - aiogram.dispatcher - Connection established (tryings = 5, bot id = 6839478389)
+2025-09-15 12:00:50,057 - INFO - handlers.messages_ai_handler - User 631886740 started the bot.
+2025-09-15 12:00:50,439 - INFO - aiogram.event - Update id=103121477 is handled. Duration 381 ms by bot id=6839478389
+2025-09-15 12:00:51,109 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:51,109 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 12:00:55,297 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:00:55,297 - WARNING - aiogram.dispatcher - Sleep for 5.095194 seconds and try again... (tryings = 8, bot id = 6839478389)
+2025-09-15 12:01:00,509 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:01:00,509 - WARNING - aiogram.dispatcher - Sleep for 1.181187 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 12:01:03,806 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 12:01:03,806 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:01:03,806 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 12:01:04,812 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:01:04,812 - WARNING - aiogram.dispatcher - Sleep for 4.857232 seconds and try again... (tryings = 9, bot id = 6839478389)
+2025-09-15 12:01:09,229 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 12:01:14,849 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:01:14,961 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:01:14,961 - WARNING - aiogram.dispatcher - Sleep for 5.107101 seconds and try again... (tryings = 10, bot id = 6839478389)
+2025-09-15 12:01:15,576 - INFO - handlers.messages_ai_handler - User 631886740 requested help.
+2025-09-15 12:01:16,005 - INFO - aiogram.event - Update id=103121478 is handled. Duration 428 ms by bot id=6839478389
+2025-09-15 12:01:20,324 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:01:20,324 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 12:01:24,785 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:01:24,785 - WARNING - aiogram.dispatcher - Sleep for 5.025959 seconds and try again... (tryings = 11, bot id = 6839478389)
+2025-09-15 12:01:27,131 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 12:01:27,131 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:01:27,132 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 12:01:40,157 - INFO - aiogram.dispatcher - Connection established (tryings = 12, bot id = 6839478389)
+2025-09-15 12:02:02,397 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 12:02:03,513 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:02:03,824 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:02:03,824 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 12:02:08,237 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:02:08,237 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 12:02:09,663 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:02:09,663 - WARNING - aiogram.dispatcher - Sleep for 1.334382 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 12:02:12,122 - INFO - aiogram.dispatcher - Connection established (tryings = 2, bot id = 6839478389)
+2025-09-15 12:02:12,123 - INFO - aiogram.event - Update id=103121479 is handled. Duration 0 ms by bot id=6839478389
+2025-09-15 12:02:14,340 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:02:14,340 - WARNING - aiogram.dispatcher - Sleep for 1.168551 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 12:02:15,805 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:02:15,805 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 12:02:16,596 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 12:02:16,596 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:02:16,596 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 12:02:27,488 - INFO - aiogram.dispatcher - Connection established (tryings = 1, bot id = 6839478389)
+2025-09-15 12:02:41,949 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 12:02:45,621 - INFO - aiogram.event - Update id=103121480 is handled. Duration 0 ms by bot id=6839478389
+2025-09-15 12:02:48,490 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:02:48,694 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:02:48,695 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 12:02:53,067 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:02:53,067 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 12:02:54,226 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:02:54,227 - WARNING - aiogram.dispatcher - Sleep for 1.356935 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 12:02:59,138 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:02:59,139 - WARNING - aiogram.dispatcher - Sleep for 1.372030 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 12:03:00,987 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:03:00,987 - WARNING - aiogram.dispatcher - Sleep for 1.727273 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 12:03:05,935 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:03:05,935 - WARNING - aiogram.dispatcher - Sleep for 1.733198 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 12:03:08,062 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:03:08,062 - WARNING - aiogram.dispatcher - Sleep for 2.195394 seconds and try again... (tryings = 3, bot id = 6839478389)
+2025-09-15 12:03:08,576 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 12:03:08,577 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:03:08,577 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 12:03:20,552 - INFO - aiogram.dispatcher - Connection established (tryings = 4, bot id = 6839478389)
+2025-09-15 12:03:23,742 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 12:03:27,391 - INFO - aiogram.event - Update id=103121481 is handled. Duration 0 ms by bot id=6839478389
+2025-09-15 12:03:31,412 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:03:31,715 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:03:31,716 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 12:03:34,646 - INFO - aiogram.dispatcher - Connection established (tryings = 1, bot id = 6839478389)
+2025-09-15 12:03:34,646 - INFO - aiogram.event - Update id=103121482 is handled. Duration 0 ms by bot id=6839478389
+2025-09-15 12:03:36,024 - INFO - handlers.messages_ai_handler - User 631886740 started the bot.
+2025-09-15 12:03:36,062 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:03:36,062 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 12:03:36,427 - INFO - aiogram.event - Update id=103121483 is handled. Duration 403 ms by bot id=6839478389
+2025-09-15 12:03:37,254 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:03:37,254 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 12:03:37,762 - INFO - aiogram.dispatcher - Connection established (tryings = 1, bot id = 6839478389)
+2025-09-15 12:03:37,763 - INFO - handlers.messages_ai_handler - User 631886740 requested help.
+2025-09-15 12:03:38,259 - INFO - aiogram.event - Update id=103121484 is handled. Duration 496 ms by bot id=6839478389
+2025-09-15 12:03:41,553 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:03:41,553 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 12:03:41,857 - INFO - aiogram.dispatcher - Connection established (tryings = 1, bot id = 6839478389)
+2025-09-15 12:03:41,858 - INFO - aiogram.event - Update id=103121485 is handled. Duration 0 ms by bot id=6839478389
+2025-09-15 12:03:43,089 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:03:43,089 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-15 12:03:47,698 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:03:47,698 - WARNING - aiogram.dispatcher - Sleep for 1.173895 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 12:03:49,235 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:03:49,235 - WARNING - aiogram.dispatcher - Sleep for 1.305158 seconds and try again... (tryings = 1, bot id = 6839478389)
+2025-09-15 12:03:53,840 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-15 12:03:53,840 - WARNING - aiogram.dispatcher - Sleep for 1.450402 seconds and try again... (tryings = 2, bot id = 6839478389)
+2025-09-15 12:03:55,216 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 12:03:55,216 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:03:55,216 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 12:04:00,656 - INFO - aiogram.dispatcher - Connection established (tryings = 2, bot id = 6839478389)
+2025-09-15 12:04:08,215 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 12:04:08,903 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:04:11,324 - INFO - handlers.messages_ai_handler - User 631886740 requested help.
+2025-09-15 12:04:11,696 - INFO - aiogram.event - Update id=103121486 is handled. Duration 372 ms by bot id=6839478389
+2025-09-15 12:04:13,819 - INFO - handlers.messages_ai_handler - User 631886740 started the bot.
+2025-09-15 12:04:14,339 - INFO - aiogram.event - Update id=103121487 is handled. Duration 519 ms by bot id=6839478389
+2025-09-15 12:04:16,190 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 12:04:16,191 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:04:16,191 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 12:10:20,497 - INFO - handlers.messages_ai_handler - Default commands set.
+2025-09-15 12:10:20,498 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 12:10:20,609 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:14:16,861 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 12:14:16,862 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:14:16,862 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 12:15:26,074 - INFO - handlers.messages_ai_handler - Default commands set.
+2025-09-15 12:15:26,075 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 12:15:26,340 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:15:26,486 - INFO - handlers.messages_ai_handler - User 631886740 requested help.
+2025-09-15 12:15:27,304 - INFO - aiogram.event - Update id=103121488 is handled. Duration 818 ms by bot id=6839478389
+2025-09-15 12:15:42,050 - INFO - handlers.messages_ai_handler - User 631886740 started the bot.
+2025-09-15 12:15:42,340 - INFO - aiogram.event - Update id=103121489 is handled. Duration 289 ms by bot id=6839478389
+2025-09-15 12:16:13,080 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What are you capable of?
+2025-09-15 12:16:13,388 - INFO - aiogram.event - Update id=103121490 is not handled. Duration 308 ms by bot id=6839478389
+2025-09-15 12:16:13,388 - ERROR - aiogram.event - Cause exception while process update id=103121490 by bot id=6839478389
+TelegramBadRequest: Telegram server says - Bad Request: wrong parameter action in request
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 70, in ai_handler_message
+    await bot.send_chat_action(chat_id=message.chat.id, action="conjuring")
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 2353, in send_chat_action
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: wrong parameter action in request
+2025-09-15 12:17:01,849 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 12:17:01,850 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:17:01,850 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 12:21:10,091 - INFO - handlers.messages_ai_handler - Default commands set.
+2025-09-15 12:21:10,091 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 12:21:10,277 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:21:15,319 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Hello
+2025-09-15 12:21:15,927 - INFO - aiogram.event - Update id=103121491 is not handled. Duration 608 ms by bot id=6839478389
+2025-09-15 12:21:15,927 - ERROR - aiogram.event - Cause exception while process update id=103121491 by bot id=6839478389
+TelegramBadRequest: Telegram server says - Bad Request: wrong parameter action in request
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 69, in ai_handler_message
+    await bot.send_chat_action(chat_id=message.chat.id, action="conjuring")
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 2353, in send_chat_action
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: wrong parameter action in request
+2025-09-15 12:22:34,163 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 12:22:34,164 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:22:34,164 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 12:22:38,766 - INFO - handlers.messages_ai_handler - Default commands set.
+2025-09-15 12:22:38,766 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 12:22:39,172 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:22:40,612 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Yo
+2025-09-15 12:22:41,325 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 12:22:56,224 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 12:22:56,225 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 12:22:56,368 - INFO - aiogram.event - Update id=103121492 is handled. Duration 15756 ms by bot id=6839478389
+2025-09-15 12:23:10,342 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What commands have this bot?
+2025-09-15 12:23:10,509 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 12:23:38,914 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 12:23:38,915 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 12:23:39,328 - INFO - aiogram.event - Update id=103121493 is handled. Duration 28986 ms by bot id=6839478389
+2025-09-15 12:23:57,881 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Generate me random video
+2025-09-15 12:23:57,999 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 12:24:03,683 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-15 12:24:03,684 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-09-15 12:24:03,816 - INFO - aiogram.event - Update id=103121494 is handled. Duration 5935 ms by bot id=6839478389
+2025-09-15 12:29:53,072 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-15 12:29:53,072 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:29:53,072 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-15 12:30:01,326 - INFO - buttons.buttons - Default commands set.
+2025-09-15 12:30:01,326 - INFO - aiogram.dispatcher - Start polling
+2025-09-15 12:30:01,639 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-15 12:30:13,618 - INFO - buttons.buttons - User 631886740 started the bot.
+2025-09-15 12:30:14,234 - INFO - aiogram.event - Update id=103121495 is handled. Duration 616 ms by bot id=6839478389
+2025-09-15 12:30:22,220 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Wassup
+2025-09-15 12:30:22,423 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 12:30:39,423 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 12:30:39,423 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 12:30:40,037 - INFO - aiogram.event - Update id=103121496 is handled. Duration 17817 ms by bot id=6839478389
+2025-09-15 12:31:14,309 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Nothing, hanging around. Tell some dad jokes
+2025-09-15 12:31:14,447 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-15 12:31:34,719 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-15 12:31:34,720 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-15 12:31:35,335 - INFO - aiogram.event - Update id=103121497 is handled. Duration 21026 ms by bot id=6839478389

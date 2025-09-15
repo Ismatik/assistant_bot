@@ -6,7 +6,6 @@ from aiogram.fsm.state import State, StatesGroup
 from google import genai
 from config_reader import config 
 
-# genai.configure(api_key="AIzaSyAzVi8VhQRsmw3Cixl7TW18IBjKOHToGhs")
 client = genai.Client(api_key=config.gemini_api_key.get_secret_value())
 model = 'gemini-2.5-pro'
 
@@ -40,38 +39,3 @@ async def set_default_commands(bot: Bot):
     ]
     await bot.set_my_commands(commands)
     logger.info("Default commands set.")
-
-
-async def ai_handles(prompt:str, history: list = None):
-    try:
-        #Start a chat with provided history
-        response = client.models.generate_content(
-            model=model,
-            contents=prompt,
-            )
-        
-        return response.text
-    
-    except Exception as e:
-        logger.error(f"Error in ai_handles: {e}")
-        return "Sorry, I couldn't process your request at the moment."
-
-
-@router.message(F.text)
-async def ai_handler_message(message: types.Message, bot:Bot):
-    if message.text.startswith('/'):
-        return
-    
-    user_prompt = message.text
-    logger.info(f"User {message.from_user.id} sent prompt: {user_prompt}")
-    
-    # Now you can use the 'bot' object that was passed in.
-    await bot.send_chat_action(chat_id=message.chat.id, action="typing")
-    
-    # Get the AI response
-    ai_response = await ai_handles(user_prompt)
-    
-    # Send the response
-    await message.answer(ai_response)
-
-
