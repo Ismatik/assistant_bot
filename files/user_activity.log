@@ -1088,3 +1088,407 @@ aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: wrong
 2025-09-15 12:31:34,719 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
 2025-09-15 12:31:34,720 - INFO - google_genai.models - AFC remote call 1 is done.
 2025-09-15 12:31:35,335 - INFO - aiogram.event - Update id=103121497 is handled. Duration 21026 ms by bot id=6839478389
+2025-09-16 11:36:11,125 - INFO - buttons.buttons - Default commands set.
+2025-09-16 11:36:11,127 - INFO - aiogram.dispatcher - Start polling
+2025-09-16 11:36:11,432 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - 'ismat_assistant'
+2025-09-16 12:59:23,852 - ERROR - aiogram.dispatcher - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-16 12:59:23,852 - WARNING - aiogram.dispatcher - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6839478389)
+2025-09-16 12:59:35,729 - INFO - aiogram.dispatcher - Connection established (tryings = 1, bot id = 6839478389)
+2025-09-16 14:32:53,608 - INFO - buttons.buttons - Default commands set.
+2025-09-16 14:32:53,608 - INFO - aiogram.dispatcher - Start polling
+2025-09-16 14:32:53,911 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-16 14:33:02,848 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Yo, you good?
+2025-09-16 14:33:03,459 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 14:33:17,591 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-16 14:33:17,594 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-16 14:33:17,894 - INFO - aiogram.event - Update id=103121498 is handled. Duration 15046 ms by bot id=6839478389
+2025-09-16 14:34:02,777 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What model are you, in terms what data you were trained on?
+2025-09-16 14:34:02,935 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 14:34:18,762 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-16 14:34:18,763 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-16 14:34:19,381 - INFO - aiogram.event - Update id=103121499 is handled. Duration 16604 ms by bot id=6839478389
+2025-09-16 14:38:31,151 - INFO - buttons.buttons - User 631886740 started the bot.
+2025-09-16 14:38:31,561 - INFO - aiogram.event - Update id=103121500 is handled. Duration 409 ms by bot id=6839478389
+2025-09-16 14:38:35,550 - INFO - buttons.buttons - User 631886740 requested help.
+2025-09-16 14:38:35,857 - INFO - aiogram.event - Update id=103121501 is handled. Duration 307 ms by bot id=6839478389
+2025-09-16 14:38:39,802 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-16 14:38:39,802 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-16 14:38:39,802 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-16 17:31:30,559 - INFO - buttons.buttons - Default commands set.
+2025-09-16 17:31:30,560 - INFO - aiogram.dispatcher - Start polling
+2025-09-16 17:31:30,748 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-16 17:31:31,182 - INFO - buttons.buttons - User 631886740 started the bot.
+2025-09-16 17:31:31,789 - INFO - aiogram.event - Update id=103121502 is handled. Duration 607 ms by bot id=6839478389
+2025-09-16 17:31:49,914 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: How to write to the creator of the bot?
+2025-09-16 17:31:50,222 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:32:16,661 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-16 17:32:16,662 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-16 17:32:17,252 - INFO - aiogram.event - Update id=103121503 is handled. Duration 27339 ms by bot id=6839478389
+2025-09-16 17:32:52,797 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: How to text to the creator of this bot, that added you here?
+2025-09-16 17:32:53,055 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:33:19,871 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-16 17:33:19,872 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-16 17:33:20,485 - INFO - aiogram.event - Update id=103121504 is handled. Duration 27688 ms by bot id=6839478389
+2025-09-16 17:34:23,559 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: I am on the third party platform, it is telegram. I want to have a chat with its owner, I think it is also written on the description
+2025-09-16 17:34:23,727 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:34:40,743 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-16 17:34:40,744 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-16 17:34:42,528 - INFO - aiogram.event - Update id=103121505 is handled. Duration 18969 ms by bot id=6839478389
+2025-09-16 17:35:27,015 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: But he is the creator of the bot I am talking to right now, I need his account
+2025-09-16 17:35:27,218 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:35:36,945 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-16 17:35:36,946 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-09-16 17:35:37,158 - INFO - aiogram.event - Update id=103121506 is handled. Duration 10143 ms by bot id=6839478389
+2025-09-16 17:35:48,013 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: But he is not the creator of the bot I am talking to right now, I need his account
+2025-09-16 17:35:48,495 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:36:02,132 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-16 17:36:02,133 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-09-16 17:36:02,338 - INFO - aiogram.event - Update id=103121507 is handled. Duration 14325 ms by bot id=6839478389
+2025-09-16 17:36:49,837 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-16 17:36:49,837 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-16 17:36:49,837 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-16 17:36:54,243 - INFO - buttons.buttons - Default commands set.
+2025-09-16 17:36:54,243 - INFO - aiogram.dispatcher - Start polling
+2025-09-16 17:36:54,550 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-16 17:36:58,244 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Wassup
+2025-09-16 17:36:58,790 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:37:13,086 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-16 17:37:13,087 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-16 17:37:13,087 - INFO - aiogram.event - Update id=103121508 is not handled. Duration 14843 ms by bot id=6839478389
+2025-09-16 17:37:13,087 - ERROR - aiogram.event - Cause exception while process update id=103121508 by bot id=6839478389
+AttributeError: 'str' object has no attribute 'parse_mode'
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 75, in ai_handler_message
+    await message.answer(ai_response.parse_mode("HTML"))
+                         ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'parse_mode'
+2025-09-16 17:43:19,237 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-16 17:43:19,239 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-16 17:43:19,239 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-16 17:43:28,265 - INFO - buttons.buttons - Default commands set.
+2025-09-16 17:43:28,265 - INFO - aiogram.dispatcher - Start polling
+2025-09-16 17:43:28,416 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-16 17:44:01,475 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Who is @Niiiiisan, he is mentioned in the description of the bot
+2025-09-16 17:44:01,915 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:44:04,986 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-16 17:44:04,987 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-09-16 17:44:05,296 - INFO - aiogram.event - Update id=103121509 is handled. Duration 3821 ms by bot id=6839478389
+2025-09-16 17:44:20,967 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What a pity
+2025-09-16 17:44:21,271 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:44:26,496 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-16 17:44:26,496 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-09-16 17:44:26,806 - INFO - aiogram.event - Update id=103121510 is handled. Duration 5839 ms by bot id=6839478389
+2025-09-16 17:44:35,408 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Wassup
+2025-09-16 17:44:35,715 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:44:45,246 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-16 17:44:45,247 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-09-16 17:44:45,555 - INFO - aiogram.event - Update id=103121511 is handled. Duration 10146 ms by bot id=6839478389
+2025-09-16 17:46:47,196 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: why?
+2025-09-16 17:46:47,804 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:46:50,572 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-16 17:46:50,572 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-09-16 17:46:50,875 - INFO - aiogram.event - Update id=103121512 is handled. Duration 3679 ms by bot id=6839478389
+2025-09-16 17:47:02,009 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-16 17:47:02,009 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-16 17:47:02,009 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-16 17:47:06,547 - INFO - buttons.buttons - Default commands set.
+2025-09-16 17:47:06,548 - INFO - aiogram.dispatcher - Start polling
+2025-09-16 17:47:06,851 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-16 17:47:09,009 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Wassup
+2025-09-16 17:47:09,616 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:47:21,787 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-16 17:47:21,788 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-16 17:47:22,219 - INFO - aiogram.event - Update id=103121513 is handled. Duration 13210 ms by bot id=6839478389
+2025-09-16 17:52:18,503 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Nothing much. The thing is, I have added you in my tg bot- LLM - I mean. Need to adjust the bot, thinking what to do
+2025-09-16 17:52:18,819 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:52:52,315 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-16 17:52:52,319 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-16 17:52:53,079 - INFO - aiogram.event - Update id=103121514 is not handled. Duration 34576 ms by bot id=6839478389
+2025-09-16 17:52:53,079 - ERROR - aiogram.event - Cause exception while process update id=103121514 by bot id=6839478389
+TelegramBadRequest: Telegram server says - Bad Request: message is too long
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 75, in ai_handler_message
+    await message.answer(
+        text=ai_response
+        )
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is too long
+2025-09-16 17:55:35,679 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-16 17:55:35,679 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-16 17:55:35,679 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-16 17:55:43,082 - INFO - buttons.buttons - Default commands set.
+2025-09-16 17:55:43,082 - INFO - aiogram.dispatcher - Start polling
+2025-09-16 17:55:43,282 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-16 17:55:55,703 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Can you tell me who is owner of telegram?
+2025-09-16 17:55:56,399 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:55:58,959 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-16 17:55:58,960 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-09-16 17:55:59,393 - INFO - aiogram.event - Update id=103121515 is handled. Duration 3690 ms by bot id=6839478389
+2025-09-16 17:56:06,104 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: yo
+2025-09-16 17:56:06,339 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:56:25,485 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-16 17:56:25,485 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-16 17:56:26,408 - INFO - aiogram.event - Update id=103121516 is handled. Duration 20303 ms by bot id=6839478389
+2025-09-16 17:58:18,349 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Who is owner of Telegram?
+2025-09-16 17:58:18,749 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:58:23,485 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-16 17:58:23,485 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-09-16 17:58:23,797 - INFO - aiogram.event - Update id=103121517 is handled. Duration 5448 ms by bot id=6839478389
+2025-09-16 17:58:37,181 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What info you can tell about famous people
+2025-09-16 17:58:37,389 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 17:59:03,709 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-16 17:59:03,710 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-16 17:59:04,259 - ERROR - handlers.messages_ai_handler - Failed to send formatted message, sending raw. Error: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "ul" at byte offset 431
+2025-09-16 17:59:04,557 - INFO - aiogram.event - Update id=103121518 is handled. Duration 27376 ms by bot id=6839478389
+2025-09-16 18:01:04,424 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: I am curious about famous people in Tajikistan
+2025-09-16 18:01:04,723 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 18:01:08,101 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-16 18:01:08,102 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-09-16 18:01:08,408 - INFO - aiogram.event - Update id=103121519 is handled. Duration 3985 ms by bot id=6839478389
+2025-09-16 18:01:20,087 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: I am curious about famous people in Tajikistan
+2025-09-16 18:01:20,388 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 18:01:24,381 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-16 18:01:24,382 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-09-16 18:01:24,688 - INFO - aiogram.event - Update id=103121520 is handled. Duration 4601 ms by bot id=6839478389
+2025-09-16 18:01:43,431 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What do you want about Tajikistan
+2025-09-16 18:01:43,737 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-16 18:02:14,760 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-16 18:02:14,761 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-16 18:02:15,203 - ERROR - handlers.messages_ai_handler - Failed to send formatted message, sending raw. Error: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "ul" at byte offset 439
+2025-09-16 18:02:15,391 - INFO - aiogram.event - Update id=103121521 is not handled. Duration 31959 ms by bot id=6839478389
+2025-09-16 18:02:15,391 - ERROR - aiogram.event - Cause exception while process update id=103121521 by bot id=6839478389
+TelegramBadRequest: Telegram server says - Bad Request: message is too long
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 151, in ai_handler_message
+    await message.answer(
+    ...<2 lines>...
+    )
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "ul" at byte offset 439
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 158, in ai_handler_message
+    await message.answer(raw_ai_response)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is too long

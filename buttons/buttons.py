@@ -17,8 +17,9 @@ router = Router()
 async def start_command(message: types.Message):
     logger.info(f"User {message.from_user.id} started the bot.")
     await message.answer("Hello! I'm Ismat's AI assistant. How can I help you today?")
+
     
-    
+
 @router.message(Command("help"))
 async def help_command(message: types.Message):
     help_text = (

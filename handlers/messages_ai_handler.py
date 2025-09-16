@@ -6,6 +6,9 @@ from aiogram.fsm.state import State, StatesGroup
 from google import genai
 from config_reader import config 
 
+import re
+import html
+
 # genai.configure(api_key="AIzaSyAzVi8VhQRsmw3Cixl7TW18IBjKOHToGhs")
 client = genai.Client(api_key=config.gemini_api_key.get_secret_value())
 model = 'gemini-2.5-pro'
@@ -16,6 +19,11 @@ router = Router()
 
 @router.message(Command("start"))
 async def start_command(message: types.Message):
+    """_summary_
+
+    Args:
+        message (types.Message): _Start command implementation_
+    """
     logger.info(f"User {message.from_user.id} started the bot.")
     await message.answer("Hello! I'm Ismat's AI assistant. How can I help you today?")
     
@@ -43,6 +51,15 @@ async def set_default_commands(bot: Bot):
 
 
 async def ai_handles(prompt:str, history: list = None):
+    """_summary_
+
+    Args:
+        prompt (str): _description_
+        history (list, optional): _description_. Defaults to None.
+
+    Returns:
+        _type_: _description_
+    """
     try:
         #Start a chat with provided history
         response = client.models.generate_content(
@@ -55,6 +72,58 @@ async def ai_handles(prompt:str, history: list = None):
     except Exception as e:
         logger.error(f"Error in ai_handles: {e}")
         return "Sorry, I couldn't process your request at the moment."
+
+def format_ai_response(text: str) -> str:
+    """
+    Converts a wide range of Markdown from an AI response into Telegram-safe HTML.
+    This function handles bold, italic, strikethrough, underline, code blocks,
+    and bullet points, while ensuring the text is safe for HTML parsing.
+
+    Args:
+        text (str): The raw text from the AI model.
+
+    Returns:
+        str: A Telegram-safe HTML formatted string.
+    """
+    # --- Basic Text Formatting ---
+    # **bold** -> <b>bold</b>
+    text = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', text)
+    # *italic* -> <i>italic</i> (be careful not to match **)
+    text = re.sub(r'(?<!\*)\*(?!\*)(.*?)(?<!\*)\*(?!\*)', r'<i>\1</i>', text)
+    # __underline__ -> <u>underline</u>
+    text = re.sub(r'__(.*?)__', r'<u>\1</u>', text)
+    # ~strikethrough~ -> <s>strikethrough</s>
+    text = re.sub(r'~(.*?)~', r'<s>\1</s>', text)
+
+    # --- Code Blocks ---
+    # ```language\ncode\n``` -> <pre><code class="language-...">code</code></pre>
+    # This regex handles multi-line code blocks with optional language hints.
+    text = re.sub(
+        r'```(\w*)\n(.*?)```', 
+        lambda m: f'<pre><code class="language-{m.group(1)}">{html.escape(m.group(2))}</code></pre>',
+        text, 
+        flags=re.DOTALL
+    )
+    # `inline code` -> <code>inline code</code>
+    text = re.sub(r'`(.*?)`', r'<code>\1</code>', text)
+
+    # --- Lists (Bullet Points) ---
+    # This is a bit more complex. We need to wrap the whole list in <ul> and each item in <li>.
+    # We find all list blocks and process them.
+    def replace_list(match):
+        items = match.group(0).strip().split('\n')
+        li_items = [f'<li>{item.strip()[2:]}</li>' for item in items]
+        return f"<ul>\n{''.join(li_items)}\n</ul>"
+
+    # This regex finds consecutive lines starting with * or - (common for lists)
+    text = re.sub(r'(?:^\s*[-*]\s+.*\n?)+', replace_list, text, flags=re.MULTILINE)
+
+    # --- Links ---
+    # [text](url) -> <a href="url">text</a>
+    text = re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2">\1</a>', text)
+    print(text)
+    return text
+
 
 
 @router.message(F.text)
@@ -72,6 +141,18 @@ async def ai_handler_message(message: types.Message, bot:Bot):
     ai_response = await ai_handles(user_prompt)
     
     # Send the response
-    await message.answer(ai_response)
-
-
+    # await message.answer(
+    #     text=ai_response
+    #     )
+    
+    formatted_response = format_ai_response(ai_response)
+    raw_ai_response = ai_response  # Keep the raw response as a fallback
+    try:
+        await message.answer(
+            formatted_response,
+            parse_mode="HTML"
+        )
+    except Exception as e:
+        # If formatting fails for some reason, send the raw text as a fallback
+        logger.error(f"Failed to send formatted message, sending raw. Error: {e}")
+        await message.answer(raw_ai_response)
