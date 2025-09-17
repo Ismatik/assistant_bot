@@ -37,6 +37,7 @@ async def set_default_commands(bot: Bot):
     commands = [
         types.BotCommand(command="/start", description="Start the bot"),
         types.BotCommand(command="/help", description="Show help message"),
+        types.BotCommand(command="/clear", description="Clear conversation history"),
     ]
     await bot.set_my_commands(commands)
     logger.info("Default commands set.")

@@ -1492,3 +1492,819 @@ Traceback (most recent call last):
   File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
     raise TelegramBadRequest(method=method, message=description)
 aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is too long
+2025-09-16 18:15:57,536 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-16 18:15:57,537 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-16 18:15:57,537 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-17 12:05:42,855 - INFO - buttons.buttons - Default commands set.
+2025-09-17 12:05:42,858 - INFO - aiogram.dispatcher - Start polling
+2025-09-17 12:05:43,190 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 12:05:50,887 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-17 12:05:50,888 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 12:05:50,888 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-17 12:28:42,674 - INFO - buttons.buttons - Default commands set.
+2025-09-17 12:28:42,674 - INFO - aiogram.dispatcher - Start polling
+2025-09-17 12:28:43,009 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 12:28:52,812 - INFO - buttons.buttons - User 631886740 started the bot.
+2025-09-17 12:28:53,336 - INFO - aiogram.event - Update id=103121522 is handled. Duration 523 ms by bot id=6839478389
+2025-09-17 12:29:00,520 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: How is life?
+2025-09-17 12:29:01,104 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-17 12:29:04,503 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-17 12:29:04,503 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-09-17 12:29:04,792 - INFO - aiogram.event - Update id=103121523 is handled. Duration 4272 ms by bot id=6839478389
+2025-09-17 12:29:10,624 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: wassup
+2025-09-17 12:29:10,941 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-17 12:29:14,009 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-09-17 12:29:14,010 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-09-17 12:29:14,314 - INFO - aiogram.event - Update id=103121524 is handled. Duration 3690 ms by bot id=6839478389
+2025-09-17 12:29:57,838 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-17 12:29:57,839 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 12:29:57,839 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-17 12:30:02,860 - INFO - buttons.buttons - Default commands set.
+2025-09-17 12:30:02,860 - INFO - aiogram.dispatcher - Start polling
+2025-09-17 12:30:03,162 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 12:30:28,661 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Wassup?
+2025-09-17 12:30:29,270 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-17 12:30:42,485 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-17 12:30:42,486 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-17 12:30:42,486 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 'NoneType' object has no attribute 'update_data'
+2025-09-17 12:30:42,794 - INFO - aiogram.event - Update id=103121525 is handled. Duration 14133 ms by bot id=6839478389
+2025-09-17 14:04:03,118 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Helllo
+2025-09-17 14:04:03,731 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-17 14:04:11,282 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-17 14:04:11,283 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-17 14:04:11,283 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 'NoneType' object has no attribute 'update_data'
+2025-09-17 14:04:11,719 - INFO - aiogram.event - Update id=103121526 is handled. Duration 8600 ms by bot id=6839478389
+2025-09-17 14:25:09,243 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Hello?
+2025-09-17 14:25:09,759 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-17 14:25:20,921 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-17 14:25:20,922 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-17 14:25:20,922 - ERROR - handlers.messages_ai_handler - Error in ai_handles: 'NoneType' object has no attribute 'update_data'
+2025-09-17 14:25:21,229 - INFO - aiogram.event - Update id=103121527 is handled. Duration 11985 ms by bot id=6839478389
+2025-09-17 14:26:20,305 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-17 14:26:20,305 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:26:20,305 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-17 14:30:21,331 - INFO - buttons.buttons - Default commands set.
+2025-09-17 14:30:21,331 - INFO - aiogram.dispatcher - Start polling
+2025-09-17 14:30:21,538 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:30:26,297 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-17 14:30:26,297 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:30:26,297 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-17 14:30:36,995 - INFO - buttons.buttons - Default commands set.
+2025-09-17 14:30:36,995 - INFO - aiogram.dispatcher - Start polling
+2025-09-17 14:30:37,266 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:30:41,913 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Hello there
+2025-09-17 14:30:42,528 - INFO - aiogram.event - Update id=103121528 is not handled. Duration 615 ms by bot id=6839478389
+2025-09-17 14:30:42,528 - ERROR - aiogram.event - Cause exception while process update id=103121528 by bot id=6839478389
+AttributeError: 'NoneType' object has no attribute 'set_state'
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 141, in ai_handler_message
+    ai_response = await ai_handles(user_prompt)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 53, in ai_handles
+    await state.set_state(ChatHistory.history)
+          ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'set_state'
+2025-09-17 14:30:44,232 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-17 14:30:44,232 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:30:44,232 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-17 14:31:43,954 - INFO - buttons.buttons - Default commands set.
+2025-09-17 14:31:43,955 - INFO - aiogram.dispatcher - Start polling
+2025-09-17 14:31:44,261 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:32:03,283 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Hello there
+2025-09-17 14:32:03,917 - INFO - aiogram.event - Update id=103121529 is not handled. Duration 634 ms by bot id=6839478389
+2025-09-17 14:32:03,917 - ERROR - aiogram.event - Cause exception while process update id=103121529 by bot id=6839478389
+TypeError: ai_handles() missing 2 required positional arguments: 'history' and 'state'
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 141, in ai_handler_message
+    ai_response = await ai_handles(user_prompt)
+                        ~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: ai_handles() missing 2 required positional arguments: 'history' and 'state'
+2025-09-17 14:32:06,628 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-17 14:32:06,628 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:32:06,628 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-17 14:32:35,552 - INFO - buttons.buttons - Default commands set.
+2025-09-17 14:32:35,553 - INFO - aiogram.dispatcher - Start polling
+2025-09-17 14:32:35,749 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:32:42,307 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Hello there
+2025-09-17 14:32:42,918 - INFO - aiogram.event - Update id=103121530 is not handled. Duration 610 ms by bot id=6839478389
+2025-09-17 14:32:42,918 - ERROR - aiogram.event - Cause exception while process update id=103121530 by bot id=6839478389
+AttributeError: type object 'ChatHistory' has no attribute 'set_state'
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 141, in ai_handler_message
+    ai_response = await ai_handles(user_prompt, history=[], state=ChatHistory)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 53, in ai_handles
+    await state.set_state(ChatHistory.history)
+          ^^^^^^^^^^^^^^^
+AttributeError: type object 'ChatHistory' has no attribute 'set_state'
+2025-09-17 14:32:51,836 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-17 14:32:51,837 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:32:51,837 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-17 14:33:30,526 - INFO - buttons.buttons - Default commands set.
+2025-09-17 14:33:30,526 - INFO - aiogram.dispatcher - Start polling
+2025-09-17 14:33:30,824 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:33:51,509 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Hello there
+2025-09-17 14:33:52,019 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-17 14:34:02,150 - ERROR - handlers.messages_ai_handler - Error in ai_handles: [Errno -3] Temporary failure in name resolution
+2025-09-17 14:34:02,465 - INFO - aiogram.event - Update id=103121531 is handled. Duration 10957 ms by bot id=6839478389
+2025-09-17 14:34:13,399 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-17 14:34:13,399 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:34:13,399 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-17 14:34:48,836 - INFO - buttons.buttons - Default commands set.
+2025-09-17 14:34:48,836 - INFO - aiogram.dispatcher - Start polling
+2025-09-17 14:34:49,142 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:34:58,362 - INFO - buttons.buttons - User 631886740 started the bot.
+2025-09-17 14:34:58,972 - INFO - aiogram.event - Update id=103121532 is handled. Duration 610 ms by bot id=6839478389
+2025-09-17 14:35:05,118 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Wassup?
+2025-09-17 14:35:05,297 - INFO - google_genai.models - AFC is enabled with max remote calls: 10.
+2025-09-17 14:35:29,995 - INFO - httpx - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-17 14:35:29,996 - INFO - google_genai.models - AFC remote call 1 is done.
+2025-09-17 14:35:30,916 - INFO - aiogram.event - Update id=103121533 is handled. Duration 25798 ms by bot id=6839478389
+2025-09-17 14:35:44,698 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-17 14:35:44,699 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:35:44,699 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-17 14:39:58,555 - INFO - buttons.buttons - Default commands set.
+2025-09-17 14:39:58,555 - INFO - aiogram.dispatcher - Start polling
+2025-09-17 14:39:58,865 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:40:21,591 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: I want random fact
+2025-09-17 14:40:24,667 - INFO - aiogram.event - Update id=103121534 is handled. Duration 3077 ms by bot id=6839478389
+2025-09-17 14:41:10,119 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What is the year she lived on and what are her big goals she achieved in her life?
+2025-09-17 14:41:13,504 - ERROR - handlers.messages_ai_handler - Failed to send formatted message, sending raw. Error: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "ul" at byte offset 162
+2025-09-17 14:41:13,804 - INFO - aiogram.event - Update id=103121535 is handled. Duration 3685 ms by bot id=6839478389
+2025-09-17 14:41:36,539 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What was the first question I asked before?
+2025-09-17 14:41:37,768 - INFO - aiogram.event - Update id=103121536 is handled. Duration 1229 ms by bot id=6839478389
+2025-09-17 14:43:03,461 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What are the facts you can tell about Tajikistan?
+2025-09-17 14:43:07,459 - ERROR - handlers.messages_ai_handler - Failed to send formatted message, sending raw. Error: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "ul" at byte offset 38
+2025-09-17 14:43:07,660 - INFO - aiogram.event - Update id=103121537 is handled. Duration 4199 ms by bot id=6839478389
+2025-09-17 14:43:31,099 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Why you use "**" instead of making text bold
+2025-09-17 14:43:32,947 - INFO - aiogram.event - Update id=103121538 is handled. Duration 1847 ms by bot id=6839478389
+2025-09-17 14:43:55,675 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: But I do not see it as a bold, but ** - can you fix it?
+2025-09-17 14:43:57,372 - INFO - aiogram.event - Update id=103121539 is handled. Duration 1696 ms by bot id=6839478389
+2025-09-17 14:44:34,068 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: To be honest, I am a the person who added you to a Telegram as a bot, in my project
+2025-09-17 14:44:35,910 - INFO - aiogram.event - Update id=103121540 is handled. Duration 1842 ms by bot id=6839478389
+2025-09-17 14:45:08,803 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Can you go to the link, If i send you one, to view the code or it is not possible?
+2025-09-17 14:45:10,646 - INFO - aiogram.event - Update id=103121541 is handled. Duration 1843 ms by bot id=6839478389
+2025-09-17 14:45:39,439 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Then, go through this code:
+
+import logging
+import re
+import html
+from aiogram import Router, F, types, Bot
+from aiogram.filters import Command
+from aiogram.fsm.context import FSMContext
+from aiogram.fsm.state import State, StatesGroup
+import google.generativeai as genai
+
+from config_reader import config
+
+# --- 1. Use the modern, async-friendly setup ---
+genai.configure(api_key=config.gemini_api_key.get_secret_value())
+model = genai.GenerativeModel('gemini-1.5-flash') # Use a modern, available model
+
+logger = logging.getLogger(name)
+router = Router()
+
+# --- 2. Define an FSM State to manage the conversation ---
+class AIConversation(StatesGroup):
+    chatting = State()
+
+# --- 3. Refactor the AI handler to use the chat model ---
+async def ai_handles_chat(prompt: str, history: list = None):
+    """
+    Manages a multi-turn conversation with Gemini.
+    """
+    try:
+        # Start a chat session with the provided history
+        chat = model.start_chat(history=history or [])
+        
+        # Send the user's message and get the response
+        response = await chat.send_message_async(prompt)
+        
+        # Return the response text AND the updated history
+        return response.text, chat.history
+    
+    except Exception as e:
+        logger.error(f"Error in ai_handles_chat: {e}", exc_info=True)
+        return "Sorry, I couldn't process your request at the moment.", history
+
+# --- 4. Modify the main handler to use FSM ---
+@router.message(F.text)
+async def ai_handler_message(message: types.Message, state: FSMContext, bot: Bot):
+    # Ignore commands
+    if message.text.startswith('/'):
+        return
+    
+    user_prompt = message.text
+    user = message.from_user
+    logger.info(f"User {user.id} sent prompt: {user_prompt}")
+    
+    await bot.send_chat_action(chat_id=user.id, action="typing")
+    
+    # Get the current conversation history from the FSM state
+    data = await state.get_data()
+    history = data.get('history', [])
+    
+    # Get the AI's response AND the new, updated history
+    ai_response_text, new_history = await ai_handles_chat(user_prompt, history)
+    
+    # Save the updated history back to the FSM state for the next message
+    await state.update_data(history=new_history)
+    
+    # Set the state to indicate an ongoing conversation
+    await state.set_state(AIConversation.chatting)
+    
+    # Format and send the response
+    formatted_response = format_ai_response(ai_response_text)
+    try:
+        await message.answer(formatted_response, parse_mode="HTML")
+    except Exception as e:
+        logger.error(f"Failed to send formatted message, sending raw. Error: {e}")
+        await message.answer(ai_response_text)
+
+# --- 5. Add a /clear command to reset the history ---
+@router.message(Command("clear"))
+async def clear_history(message: types.Message, state: FSMContext):
+    """Clears the conversation history for the user."""
+    await state.clear()
+    await message.answer("My memory of our conversation has been cleared. Let's start fresh!")
+    logger.info(f"User {message.from_user.id} cleared their conversation history.")
+
+
+
+def format_ai_response(text: str) -> str:
+    """
+    Converts a wide range of Markdown from an AI response into Telegram-safe HTML.
+    This function handles bold, italic, strikethrough, underline, code blocks,
+    and bullet points, while ensuring the text is safe for HTML parsing.
+
+    Args:
+        text (str): The raw text from the AI model.
+
+    Returns:
+        str: A Telegram-safe HTML formatted string.
+    """
+    # --- Basic Text Formatting ---
+    # bold -> <b>bold</b>
+    text = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', text)
+    # *italic* -> <i>italic</i> (be careful not to match **)
+    text = re.sub(r'(?<!\*)\*(?!\*)(.*?)(?<!\*)\*(?!\*)', r'<i>\1</i>', text)
+    # underline -> <u>underline</u>
+    text = re.sub(r'(.*?)', r'<u>\1</u>', text)
+    # ~strikethrough~ -> <s>strikethrough</s>
+    text = re.sub(r'~(.*?)~', r'<s>\1</s>', text)
+2025-09-17 14:45:39,846 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: # --- Code Blocks ---
+    # language\ncode\n -> <pre><code class="language-...">code</code></pre>
+    # This regex handles multi-line code blocks with optional language hints.
+    text = re.sub(
+        r'(\w*)\n(.*?)', 
+        lambda m: f'<pre><code class="language-{m.group(1)}">{html.escape(m.group(2))}</code></pre>',
+        text, 
+        flags=re.DOTALL
+    )
+    # inline code -> <code>inline code</code>
+    text = re.sub(r'(.*?)', r'<code>\1</code>', text)
+
+    # --- Lists (Bullet Points) ---
+    # This is a bit more complex. We need to wrap the whole list in <ul> and each item in <li>.
+    # We find all list blocks and process them.
+    def replace_list(match):
+        items = match.group(0).strip().split('\n')
+        li_items = [f'<li>{item.strip()[2:]}</li>' for item in items]
+        return f"<ul>\n{''.join(li_items)}\n</ul>"
+
+    # This regex finds consecutive lines starting with * or - (common for lists)
+    text = re.sub(r'(?:^\s*[-*]\s+.*\n?)+', replace_list, text, flags=re.MULTILINE)
+
+    # --- Links ---
+    # [text](url) -> <a href="url">text</a>
+    text = re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2">\1</a>', text)
+    print(text)
+    return text
+2025-09-17 14:45:46,304 - ERROR - handlers.messages_ai_handler - Failed to send formatted message, sending raw. Error: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "ul" at byte offset 150
+2025-09-17 14:45:46,607 - INFO - aiogram.event - Update id=103121542 is handled. Duration 7167 ms by bot id=6839478389
+2025-09-17 14:45:46,918 - ERROR - handlers.messages_ai_handler - Failed to send formatted message, sending raw. Error: Telegram server says - Bad Request: can't parse entities: Unmatched end tag at byte offset 216, expected "</code>", found "</i>"
+2025-09-17 14:45:47,221 - INFO - aiogram.event - Update id=103121543 is handled. Duration 7376 ms by bot id=6839478389
+2025-09-17 14:46:41,008 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Can you change my "format_ai_response" function, so the styles would apply correctly?
+2025-09-17 14:46:47,457 - ERROR - handlers.messages_ai_handler - Failed to send formatted message, sending raw. Error: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "li" at byte offset 1140
+2025-09-17 14:46:47,666 - INFO - aiogram.event - Update id=103121544 is handled. Duration 6657 ms by bot id=6839478389
+2025-09-17 14:48:14,107 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Let me restart you, and check if function applied
+2025-09-17 14:48:16,269 - INFO - aiogram.event - Update id=103121545 is handled. Duration 2162 ms by bot id=6839478389
+2025-09-17 14:48:41,651 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-17 14:48:41,651 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:48:41,651 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-17 14:48:46,983 - INFO - buttons.buttons - Default commands set.
+2025-09-17 14:48:46,983 - INFO - aiogram.dispatcher - Start polling
+2025-09-17 14:48:47,287 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:48:52,209 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: You here?
+2025-09-17 14:48:57,116 - INFO - aiogram.event - Update id=103121546 is not handled. Duration 4908 ms by bot id=6839478389
+2025-09-17 14:48:57,117 - ERROR - aiogram.event - Cause exception while process update id=103121546 by bot id=6839478389
+NameError: name 'format_ai_response' is not defined
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 230, in ai_handler_message
+    formatted_response = format_ai_response(ai_response_text)
+                         ^^^^^^^^^^^^^^^^^^
+NameError: name 'format_ai_response' is not defined
+2025-09-17 14:50:12,407 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-17 14:50:12,408 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:50:12,408 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-17 14:50:20,064 - INFO - buttons.buttons - Default commands set.
+2025-09-17 14:50:20,065 - INFO - aiogram.dispatcher - Start polling
+2025-09-17 14:50:20,371 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:50:29,487 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-17 14:50:29,488 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:50:29,488 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-17 14:51:07,992 - INFO - buttons.buttons - Default commands set.
+2025-09-17 14:51:07,992 - INFO - aiogram.dispatcher - Start polling
+2025-09-17 14:51:08,298 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-17 14:51:17,206 - INFO - buttons.buttons - User 631886740 started the bot.
+2025-09-17 14:51:17,818 - INFO - aiogram.event - Update id=103121547 is handled. Duration 612 ms by bot id=6839478389
+2025-09-17 14:51:28,266 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Do you remember what we talked before?
+2025-09-17 14:51:30,414 - INFO - aiogram.event - Update id=103121548 is handled. Duration 2147 ms by bot id=6839478389
+2025-09-17 14:52:08,816 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: If you are LLM, are you good in coding or creating content or generating audio, images?
+2025-09-17 14:52:11,886 - ERROR - handlers.messages_ai_handler - Failed to send formatted message, sending raw. Error: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "ul" at byte offset 323
+2025-09-17 14:52:12,189 - INFO - aiogram.event - Update id=103121549 is handled. Duration 3373 ms by bot id=6839478389
+2025-09-17 14:53:56,640 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Okay, lets start from beginning, I added you in my Telegram Bot, and we talk in Telegram chat
+2025-09-17 14:53:58,488 - INFO - aiogram.event - Update id=103121550 is handled. Duration 1848 ms by bot id=6839478389
+2025-09-17 14:54:29,518 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: It is fine you do not have memory, I need you to know this info for my future questions
+2025-09-17 14:54:30,741 - INFO - aiogram.event - Update id=103121551 is handled. Duration 1223 ms by bot id=6839478389
+2025-09-17 14:54:58,396 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Even though I added FSMContext for chat history in my python code?
+2025-09-17 14:55:00,853 - INFO - aiogram.event - Update id=103121552 is handled. Duration 2457 ms by bot id=6839478389
+2025-09-17 14:55:49,701 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: How can I integrate you into my bot's logic, or what should I do for that?
+2025-09-17 14:55:56,454 - ERROR - handlers.messages_ai_handler - Failed to send formatted message, sending raw. Error: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "ul" at byte offset 952
+2025-09-17 14:55:56,762 - INFO - aiogram.event - Update id=103121553 is handled. Duration 7061 ms by bot id=6839478389
+2025-09-17 14:56:50,529 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What should I change, in this code, to achieve same goal like you said in previous request:
+genai.configure(api_key=config.gemini_api_key.get_secret_value())
+model = genai.GenerativeModel('gemini-1.5-flash') # Use a modern, available model
+
+logger = logging.getLogger(name)
+router = Router()
+
+# --- 2. Define an FSM State to manage the conversation ---
+class AIConversation(StatesGroup):
+    chatting = State()
+
+# --- 3. Refactor the AI handler to use the chat model ---
+async def ai_handles_chat(prompt: str, history: list = None):
+    """
+    Manages a multi-turn conversation with Gemini.
+    """
+    try:
+        # Start a chat session with the provided history
+        chat = model.start_chat(history=history or [])
+        
+        # Send the user's message and get the response
+        response = await chat.send_message_async(prompt)
+        
+        # Return the response text AND the updated history
+        return response.text, chat.history
+    
+    except Exception as e:
+        logger.error(f"Error in ai_handles_chat: {e}", exc_info=True)
+        return "Sorry, I couldn't process your request at the moment.", history
+
+# --- 4. Modify the main handler to use FSM ---
+@router.message(F.text)
+async def ai_handler_message(message: types.Message, state: FSMContext, bot: Bot):
+    # Ignore commands
+    if message.text.startswith('/'):
+        return
+    
+    user_prompt = message.text
+    user = message.from_user
+    logger.info(f"User {user.id} sent prompt: {user_prompt}")
+    
+    await bot.send_chat_action(chat_id=user.id, action="typing")
+    
+    # Get the current conversation history from the FSM state
+    data = await state.get_data()
+    history = data.get('history', [])
+    
+    # Get the AI's response AND the new, updated history
+    ai_response_text, new_history = await ai_handles_chat(user_prompt, history)
+    
+    # Save the updated history back to the FSM state for the next message
+    await state.update_data(history=new_history)
+    
+    # Set the state to indicate an ongoing conversation
+    await state.set_state(AIConversation.chatting)
+    
+    # Format and send the response
+    formatted_response = format_ai_response(ai_response_text)
+    try:
+        await message.answer(formatted_response, parse_mode="HTML")
+    except Exception as e:
+        logger.error(f"Failed to send formatted message, sending raw. Error: {e}")
+        await message.answer(ai_response_text)
+
+# --- 5. Add a /clear command to reset the history ---
+@router.message(Command("clear"))
+async def clear_history(message: types.Message, state: FSMContext):
+    """Clears the conversation history for the user."""
+    await state.clear()
+    await message.answer("My memory of our conversation has been cleared. Let's start fresh!")
+    logger.info(f"User {message.from_user.id} cleared their conversation history.")
+
+
+
+def format_ai_response(text: str) -> str:
+    """
+    Converts a wide range of Markdown from an AI response into Telegram-safe HTML.
+    This function handles bold, italic, strikethrough, underline, code blocks,
+    and bullet points, while ensuring the text is safe for HTML parsing.
+
+    Args:
+        text (str): The raw text from the AI model.
+
+    Returns:
+        str: A Telegram-safe HTML formatted string.
+    """
+    # --- Basic Text Formatting ---
+    # bold -> <b>bold</b>
+    text = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', text)
+    # *italic* -> <i>italic</i> (be careful not to match **)
+    text = re.sub(r'(?<!\*)\*(?!\*)(.*?)(?<!\*)\*(?!\*)', r'<i>\1</i>', text)
+    # underline -> <u>underline</u>
+    text = re.sub(r'(.*?)', r'<u>\1</u>', text)
+    # ~strikethrough~ -> <s>strikethrough</s>
+    text = re.sub(r'~(.*?)~', r'<s>\1</s>', text)
+2025-09-17 14:56:50,837 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: # --- Code Blocks ---
+    # language\ncode\n -> <pre><code class="language-...">code</code></pre>
+    # This regex handles multi-line code blocks with optional language hints.
+    text = re.sub(
+        r'(\w*)\n(.*?)', 
+        lambda m: f'<pre><code class="language-{m.group(1)}">{html.escape(m.group(2))}</code></pre>',
+        text, 
+        flags=re.DOTALL
+    )
+    # inline code -> <code>inline code</code>
+    text = re.sub(r'(.*?)', r'<code>\1</code>', text)
+
+    # --- Lists (Bullet Points) ---
+    # This is a bit more complex. We need to wrap the whole list in <ul> and each item in <li>.
+    # We find all list blocks and process them.
+    def replace_list(match):
+        items = match.group(0).strip().split('\n')
+        li_items = [f'<li>{item.strip()[2:]}</li>' for item in items]
+        return f"<ul>\n{''.join(li_items)}\n</ul>"
+
+    # This regex finds consecutive lines starting with * or - (common for lists)
+    text = re.sub(r'(?:^\s*[-*]\s+.*\n?)+', replace_list, text, flags=re.MULTILINE)
+
+    # --- Links ---
+    # [text](url) -> <a href="url">text</a>
+    text = re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2">\1</a>', text)
+    print(text)
+    return text
+2025-09-17 14:56:57,720 - ERROR - handlers.messages_ai_handler - Failed to send formatted message, sending raw. Error: Telegram server says - Bad Request: can't parse entities: Unmatched end tag at byte offset 316, expected "</code>", found "</i>"
+2025-09-17 14:56:58,204 - INFO - aiogram.event - Update id=103121555 is handled. Duration 7368 ms by bot id=6839478389
+2025-09-17 14:56:59,282 - ERROR - handlers.messages_ai_handler - Failed to send formatted message, sending raw. Error: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "ul" at byte offset 3272
+2025-09-17 14:56:59,437 - INFO - aiogram.event - Update id=103121554 is not handled. Duration 8908 ms by bot id=6839478389
+2025-09-17 14:56:59,437 - ERROR - aiogram.event - Cause exception while process update id=103121554 by bot id=6839478389
+TelegramBadRequest: Telegram server says - Bad Request: message is too long
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 232, in ai_handler_message
+    await message.answer(formatted_response, parse_mode="HTML")
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "ul" at byte offset 3272
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 235, in ai_handler_message
+    await message.answer(ai_response_text)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is too long
+2025-09-17 14:58:32,520 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: But you did not tell me how to integrate you into my bot's code?
+2025-09-17 14:58:40,200 - INFO - aiogram.event - Update id=103121556 is handled. Duration 7680 ms by bot id=6839478389
+2025-09-17 15:39:12,799 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What should be for "YOUR_API_URL"?
+2025-09-17 15:39:17,331 - ERROR - handlers.messages_ai_handler - Failed to send formatted message, sending raw. Error: Telegram server says - Bad Request: can't parse entities: Unsupported start tag "ul" at byte offset 354
+2025-09-17 15:39:17,508 - INFO - aiogram.event - Update id=103121557 is handled. Duration 4709 ms by bot id=6839478389
+2025-09-17 15:41:02,472 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What is URL for Google Generative AI SDK, I am using model from them, generated Gemini API Key, but not url?
+2025-09-17 15:41:08,918 - INFO - aiogram.event - Update id=103121558 is handled. Duration 6447 ms by bot id=6839478389
+2025-09-17 15:44:35,567 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What was my first question?
+2025-09-17 15:44:41,811 - INFO - aiogram.event - Update id=103121559 is handled. Duration 6244 ms by bot id=6839478389
+2025-09-17 15:45:00,859 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: But in this conversation, what was my first question?
+2025-09-17 15:45:09,140 - INFO - aiogram.event - Update id=103121560 is handled. Duration 8281 ms by bot id=6839478389
