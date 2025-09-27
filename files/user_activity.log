@@ -4095,3 +4095,213 @@ AttributeError: property 'model_name' of 'GenerativeModel' object has no setter
 2025-09-22 16:52:05,052 - WARNING - aiogram.dispatcher - Received SIGINT signal
 2025-09-22 16:52:05,054 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
 2025-09-22 16:52:05,054 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-27 14:47:46,633 - WARNING - root - Missing external dependencies: ffmpeg. Please install them before deploying the bot.
+2025-09-27 14:47:47,634 - INFO - buttons.buttons - Default commands set.
+2025-09-27 14:47:47,635 - INFO - aiogram.dispatcher - Start polling
+2025-09-27 14:47:47,975 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-27 14:47:58,088 - INFO - buttons.buttons - User 631886740 started the bot.
+2025-09-27 14:47:58,701 - INFO - aiogram.event - Update id=103121713 is handled. Duration 612 ms by bot id=6839478389
+2025-09-27 14:48:03,307 - INFO - buttons.buttons - User 631886740 started the bot.
+2025-09-27 14:48:03,608 - INFO - aiogram.event - Update id=103121714 is handled. Duration 301 ms by bot id=6839478389
+2025-09-27 14:48:07,294 - INFO - aiogram.event - Update id=103121715 is handled. Duration 274 ms by bot id=6839478389
+2025-09-27 14:48:23,577 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Кукла Дискотека Авария
+2025-09-27 14:48:38,049 - INFO - aiogram.event - Update id=103121716 is handled. Duration 14473 ms by bot id=6839478389
+2025-09-27 14:52:43,157 - INFO - aiogram.event - Update id=103121717 is handled. Duration 181 ms by bot id=6839478389
+2025-09-27 14:52:48,385 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: https://www.youtube.com/watch?v=zZKwwpJtNxU&list=RDP7WlYJa7Y4Q&index=13
+2025-09-27 14:52:56,679 - INFO - aiogram.event - Update id=103121718 is handled. Duration 8294 ms by bot id=6839478389
+2025-09-27 14:53:09,273 - INFO - aiogram.event - Update id=103121719 is handled. Duration 185 ms by bot id=6839478389
+2025-09-27 14:53:25,250 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Кукла Remix Дискотека Авария
+2025-09-27 14:53:36,038 - INFO - aiogram.event - Update id=103121720 is handled. Duration 10788 ms by bot id=6839478389
+2025-09-27 14:55:43,780 - ERROR - handlers.song_handler - Failed to process /song command
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 3563, in process_info
+    replace_info_dict(self.post_process(dl_filename, info_dict, files_to_move))
+                      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 3749, in post_process
+    info = self.run_all_pps('post_process', info, additional_pps=info.get('__postprocessors'))
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 3731, in run_all_pps
+    info = self.run_pp(pp, info)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 3709, in run_pp
+    files_to_delete, infodict = pp.run(infodict)
+                                ~~~~~~^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/postprocessor/common.py", line 23, in run
+    ret = func(self, info, *args, **kwargs)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/postprocessor/common.py", line 128, in wrapper
+    return func(self, info)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/postprocessor/ffmpeg.py", line 483, in run
+    filecodec = self.get_audio_codec(path)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/postprocessor/ffmpeg.py", line 231, in get_audio_codec
+    raise PostProcessingError('ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location')
+yt_dlp.utils.PostProcessingError: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/song_handler.py", line 76, in song_command
+    audio_file_path, title = await loop.run_in_executor(None, _download_audio, query, temp_dir)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/song_handler.py", line 39, in _download_audio
+    search_results = ydl.extract_info(f"ytsearch1:{search_query}", download=True)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1634, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1645, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1801, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1930, in process_ie_result
+    return self.__process_playlist(ie_result, download)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 2078, in __process_playlist
+    entry_result = self.__process_iterable_entry(entry, download, collections.ChainMap({
+        'playlist_index': playlist_index,
+        'playlist_autonumber': i + 1,
+    }, extra))
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1645, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 2110, in __process_iterable_entry
+    return self.process_ie_result(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        entry, download=download, extra_info=extra_info)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1880, in process_ie_result
+    return self.extract_info(
+           ~~~~~~~~~~~~~~~~~^
+        ie_result['url'], download,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        ie_key=ie_result.get('ie_key'),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        extra_info=extra_info)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1634, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1645, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1801, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1860, in process_ie_result
+    ie_result = self.process_video_result(ie_result, download=download)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 3038, in process_video_result
+    self.process_info(new_info)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 187, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 3565, in process_info
+    self.report_error(f'Postprocessing: {err}')
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1103, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1042, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+2025-09-27 14:55:43,977 - INFO - aiogram.event - Update id=103121721 is handled. Duration 14213 ms by bot id=6839478389
+2025-09-27 14:56:15,233 - ERROR - handlers.song_handler - Failed to process /song command
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 3563, in process_info
+    replace_info_dict(self.post_process(dl_filename, info_dict, files_to_move))
+                      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 3749, in post_process
+    info = self.run_all_pps('post_process', info, additional_pps=info.get('__postprocessors'))
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 3731, in run_all_pps
+    info = self.run_pp(pp, info)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 3709, in run_pp
+    files_to_delete, infodict = pp.run(infodict)
+                                ~~~~~~^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/postprocessor/common.py", line 23, in run
+    ret = func(self, info, *args, **kwargs)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/postprocessor/common.py", line 128, in wrapper
+    return func(self, info)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/postprocessor/ffmpeg.py", line 483, in run
+    filecodec = self.get_audio_codec(path)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/postprocessor/ffmpeg.py", line 231, in get_audio_codec
+    raise PostProcessingError('ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location')
+yt_dlp.utils.PostProcessingError: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/song_handler.py", line 76, in song_command
+    audio_file_path, title = await loop.run_in_executor(None, _download_audio, query, temp_dir)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/song_handler.py", line 39, in _download_audio
+    search_results = ydl.extract_info(f"ytsearch1:{search_query}", download=True)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1634, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1645, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1801, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1930, in process_ie_result
+    return self.__process_playlist(ie_result, download)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 2078, in __process_playlist
+    entry_result = self.__process_iterable_entry(entry, download, collections.ChainMap({
+        'playlist_index': playlist_index,
+        'playlist_autonumber': i + 1,
+    }, extra))
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1645, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 2110, in __process_iterable_entry
+    return self.process_ie_result(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        entry, download=download, extra_info=extra_info)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1880, in process_ie_result
+    return self.extract_info(
+           ~~~~~~~~~~~~~~~~~^
+        ie_result['url'], download,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        ie_key=ie_result.get('ie_key'),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        extra_info=extra_info)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1634, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1645, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1801, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1860, in process_ie_result
+    ie_result = self.process_video_result(ie_result, download=download)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 3038, in process_video_result
+    self.process_info(new_info)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 187, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 3565, in process_info
+    self.report_error(f'Postprocessing: {err}')
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1103, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1042, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+2025-09-27 14:56:15,372 - INFO - aiogram.event - Update id=103121722 is handled. Duration 10583 ms by bot id=6839478389
+2025-09-27 14:57:22,647 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-27 14:57:22,647 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-27 14:57:22,647 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-27 14:58:54,174 - INFO - root - External tools ffmpeg and yt-dlp detected. Ensure downloads comply with YouTube's Terms of Service.
+2025-09-27 14:58:54,867 - INFO - buttons.buttons - Default commands set.
+2025-09-27 14:58:54,868 - INFO - aiogram.dispatcher - Start polling
+2025-09-27 14:58:55,289 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-27 14:59:14,959 - INFO - aiogram.event - Update id=103121723 is handled. Duration 16058 ms by bot id=6839478389
+2025-09-27 15:01:56,539 - INFO - buttons.buttons - User 974794263 started the bot.
+2025-09-27 15:01:56,816 - INFO - aiogram.event - Update id=103121724 is handled. Duration 278 ms by bot id=6839478389
+2025-09-27 15:02:01,147 - INFO - aiogram.event - Update id=103121725 is handled. Duration 308 ms by bot id=6839478389
+2025-09-27 15:02:30,994 - INFO - aiogram.event - Update id=103121726 is handled. Duration 18789 ms by bot id=6839478389
+2025-09-27 15:26:12,669 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-27 15:26:12,670 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-27 15:26:12,670 - INFO - aiogram.dispatcher - Polling stopped

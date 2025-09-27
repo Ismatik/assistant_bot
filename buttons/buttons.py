@@ -98,7 +98,7 @@ async def help_command(message: types.Message):
         "Available commands:\n"
         "/start - Start the bot\n"
         "/help - Show this help message\n"
-        "/song - Search YouTube and send back audio\n"
+        "/song - Search YouTube and send back audio.(e.g. /song Name of song)\n"
         "/select_model - Select AI model\n"
     )
 
