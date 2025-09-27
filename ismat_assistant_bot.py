@@ -2,7 +2,9 @@ from aiogram import Bot, Dispatcher
 from config_reader import config
 from config_reader import USER_ACTIVITY_LOG_FILE
 import asyncio
+import shutil
 from handlers.messages_ai_handler import router as ai_router
+from handlers.song_handler import router as song_router
 
 from buttons.buttons import router as buttons_router
 from buttons.buttons import set_default_commands
@@ -12,6 +14,21 @@ import logging
 
 bot = Bot(token = config.bot_token.get_secret_value())
 dp = Dispatcher()
+
+
+def verify_external_tools() -> None:
+    """Log a warning if required external tools are missing."""
+
+    missing_tools = [tool for tool in ("ffmpeg", "yt-dlp") if shutil.which(tool) is None]
+    if missing_tools:
+        logging.warning(
+            "Missing external dependencies: %s. Please install them before deploying the bot.",
+            ", ".join(missing_tools),
+        )
+    else:
+        logging.info(
+            "External tools ffmpeg and yt-dlp detected. Ensure downloads comply with YouTube's Terms of Service."
+        )
 
 
 async def main():
@@ -32,8 +49,11 @@ async def main():
             logging.StreamHandler()
         }
     )
-    
+
+    verify_external_tools()
+
     dp.include_router(buttons_router)
+    dp.include_router(song_router)
     dp.include_router(ai_router)
     await set_default_commands(bot)
     await dp.start_polling(bot)

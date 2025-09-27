@@ -98,6 +98,7 @@ async def help_command(message: types.Message):
         "Available commands:\n"
         "/start - Start the bot\n"
         "/help - Show this help message\n"
+        "/song - Search YouTube and send back audio\n"
         "/select_model - Select AI model\n"
     )
 
@@ -108,6 +109,7 @@ async def set_default_commands(bot: Bot):
     commands = [
         types.BotCommand(command="/start", description="Start the bot"),
         types.BotCommand(command="/help", description="Show help message"),
+        types.BotCommand(command="/song", description="Download a song from YouTube"),
         types.BotCommand(command="/clear", description="Clear conversation history"),
         types.BotCommand(command="/select_model", description="Select AI model"),
     ]
