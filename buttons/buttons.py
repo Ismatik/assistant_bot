@@ -6,9 +6,10 @@ from aiogram.fsm.state import State, StatesGroup
 from google import genai
 from config_reader import config
 from utils.utils import UserSettings
+from handlers.messages_ai_handler import model
 
 client = genai.Client(api_key=config.gemini_api_key.get_secret_value())
-model = 'gemini-2.5-pro'
+# model = 'gemini-2.5-pro'
 
 logger = logging.getLogger(__name__)
 router = Router()
@@ -36,7 +37,7 @@ async def select_model_command(message: types.Message, model: str = "gemini-2.5-
         "Please choose a model by clicking one of the buttons below."
     )
     
-    model_options = {"🚀 Gemini 2.5 Pro" : "model_gemini-2.5-pro|🚀 Gemini 2.5 Pro", "⚡ Gemini 2.5 Flash": "model_gemini-2.5-flash|⚡ Gemini 2.5 Flash", "🌟 Gemini 2.5 Flash-Lite" : "model-gemini-2.5-flash-lite|🌟 Gemini 2.5 Flash-Lite", "🔍 Gemini 2.5 Flash Preview" : "model-gemini-2.5-flash-preview|🔍 Gemini 2.5 Flash Preview"}
+    model_options = {"🚀 Gemini 2.5 Pro" : "model_gemini-2.5-pro|🚀 Gemini 2.5 Pro", "⚡ Gemini 2.5 Flash": "model_gemini-2.5-flash|⚡ Gemini 2.5 Flash", "🌟 Gemini 2.5 Flash-Lite" : "model_gemini-2.5-flash-lite|🌟 Gemini 2.5 Flash-Lite", "🔍 Gemini 2.5 Flash Preview" : "model_gemini-2.5-flash-preview|🔍 Gemini 2.5 Flash Preview"}
     
     buttons = [
         types.InlineKeyboardButton(
@@ -58,7 +59,17 @@ async def select_model_command(message: types.Message, model: str = "gemini-2.5-
     logger.info(f"User {message.from_user.id} requested model selection info.")
 
 @router.callback_query(F.data.startswith("model_"))
-async def model_selection_callback(callback_query: types.CallbackQuery, state: FSMContext):
+async def model_selection_callback(callback_query: types.CallbackQuery, state: FSMContext, mdel: str = "gemini-2.5-pro"):
+    """
+    Handles callback query for model selection.
+
+    Args:
+        callback_query (types.CallbackQuery): Contains information about the callback query.
+        state (FSMContext): Contains information about the current state of the user.
+
+    Returns:
+        None
+    """
     await callback_query.answer()
     selected_model = callback_query.data.split("|")[0].split("_")[1]
     for_user = callback_query.data.split("|")[1]
@@ -71,12 +82,18 @@ async def model_selection_callback(callback_query: types.CallbackQuery, state: F
     await callback_query.answer()
     
     logger.info(f"User {callback_query.from_user.id} selected model: {selected_model}")
-
-
+    
+    return selected_model
 
 
 @router.message(Command("help"))
 async def help_command(message: types.Message):
+    """
+    Responds to the "/help" command with a help message.
+    
+    The help message includes information about the bot's capabilities and available commands.
+    """
+    
     help_text = (
         "I can assist you with various tasks using AI. "
         "Just send me a message with your request, and I'll do my best to help!\n\n"

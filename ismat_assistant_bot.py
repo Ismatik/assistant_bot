@@ -15,6 +15,15 @@ dp = Dispatcher()
 
 
 async def main():
+    """
+    Start the bot.
+
+    1. Set up logging with level INFO and format '%(asctime)s - %(levelname)s - %(name)s - %(message)s'.
+    2. Include the router for buttons.
+    3. Include the router for ai.
+    4. Set default commands for the bot.
+    5. Start polling for the bot.
+    """
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",

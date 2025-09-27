@@ -3717,3 +3717,381 @@ UnboundLocalError: cannot access local variable 'model' where it is not associat
 2025-09-22 16:20:21,262 - INFO - aiogram.event - Update id=103121674 is handled. Duration 289 ms by bot id=6839478389
 2025-09-22 16:20:23,738 - INFO - buttons.buttons - User 631886740 selected model: gemini-2.5-flash
 2025-09-22 16:20:23,738 - INFO - aiogram.event - Update id=103121675 is handled. Duration 917 ms by bot id=6839478389
+2025-09-22 16:30:39,553 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-22 16:30:39,553 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:30:39,553 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-22 16:30:54,602 - INFO - buttons.buttons - Default commands set.
+2025-09-22 16:30:54,602 - INFO - aiogram.dispatcher - Start polling
+2025-09-22 16:30:54,908 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:30:55,214 - INFO - buttons.buttons - User 631886740 started the bot.
+2025-09-22 16:30:55,724 - INFO - aiogram.event - Update id=103121676 is handled. Duration 510 ms by bot id=6839478389
+2025-09-22 16:30:58,297 - INFO - buttons.buttons - User 631886740 requested model selection info.
+2025-09-22 16:30:58,298 - INFO - aiogram.event - Update id=103121677 is handled. Duration 321 ms by bot id=6839478389
+2025-09-22 16:30:59,345 - INFO - aiogram.event - Update id=103121678 is not handled. Duration 0 ms by bot id=6839478389
+2025-09-22 16:31:19,050 - INFO - buttons.buttons - User 631886740 selected model: gemini-2.5-pro
+2025-09-22 16:31:19,050 - INFO - aiogram.event - Update id=103121679 is handled. Duration 484 ms by bot id=6839478389
+2025-09-22 16:31:25,016 - INFO - buttons.buttons - User 631886740 requested model selection info.
+2025-09-22 16:31:25,016 - INFO - aiogram.event - Update id=103121680 is handled. Duration 307 ms by bot id=6839478389
+2025-09-22 16:31:27,471 - INFO - buttons.buttons - User 631886740 selected model: gemini-2.5-flash
+2025-09-22 16:31:27,471 - INFO - aiogram.event - Update id=103121681 is handled. Duration 615 ms by bot id=6839478389
+2025-09-22 16:31:32,082 - INFO - buttons.buttons - User 631886740 requested model selection info.
+2025-09-22 16:31:32,082 - INFO - aiogram.event - Update id=103121682 is handled. Duration 306 ms by bot id=6839478389
+2025-09-22 16:31:33,928 - INFO - aiogram.event - Update id=103121683 is not handled. Duration 0 ms by bot id=6839478389
+2025-09-22 16:32:14,475 - INFO - buttons.buttons - User 631886740 requested model selection info.
+2025-09-22 16:32:14,475 - INFO - aiogram.event - Update id=103121684 is handled. Duration 296 ms by bot id=6839478389
+2025-09-22 16:32:15,706 - INFO - aiogram.event - Update id=103121685 is not handled. Duration 0 ms by bot id=6839478389
+2025-09-22 16:35:04,565 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-22 16:35:04,566 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:35:04,566 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-22 16:35:17,630 - INFO - buttons.buttons - Default commands set.
+2025-09-22 16:35:17,631 - INFO - aiogram.dispatcher - Start polling
+2025-09-22 16:35:17,747 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:35:21,578 - INFO - buttons.buttons - User 631886740 started the bot.
+2025-09-22 16:35:22,204 - INFO - aiogram.event - Update id=103121686 is handled. Duration 626 ms by bot id=6839478389
+2025-09-22 16:35:24,643 - INFO - buttons.buttons - User 631886740 requested model selection info.
+2025-09-22 16:35:24,643 - INFO - aiogram.event - Update id=103121687 is handled. Duration 304 ms by bot id=6839478389
+2025-09-22 16:35:25,566 - INFO - aiogram.event - Update id=103121688 is not handled. Duration 0 ms by bot id=6839478389
+2025-09-22 16:35:29,555 - INFO - aiogram.event - Update id=103121689 is not handled. Duration 0 ms by bot id=6839478389
+2025-09-22 16:35:32,043 - INFO - buttons.buttons - User 631886740 selected model: gemini-2.5-flash
+2025-09-22 16:35:32,043 - INFO - aiogram.event - Update id=103121690 is handled. Duration 382 ms by bot id=6839478389
+2025-09-22 16:35:34,616 - INFO - buttons.buttons - User 631886740 selected model: gemini-2.5-pro
+2025-09-22 16:35:34,616 - INFO - aiogram.event - Update id=103121691 is handled. Duration 412 ms by bot id=6839478389
+2025-09-22 16:35:37,539 - INFO - buttons.buttons - User 631886740 requested model selection info.
+2025-09-22 16:35:37,539 - INFO - aiogram.event - Update id=103121692 is handled. Duration 306 ms by bot id=6839478389
+2025-09-22 16:35:39,694 - INFO - buttons.buttons - User 631886740 selected model: gemini-2.5-pro
+2025-09-22 16:35:39,694 - INFO - aiogram.event - Update id=103121693 is handled. Duration 926 ms by bot id=6839478389
+2025-09-22 16:35:54,435 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What model are you right now?
+2025-09-22 16:35:54,741 - INFO - aiogram.event - Update id=103121694 is not handled. Duration 306 ms by bot id=6839478389
+2025-09-22 16:35:54,741 - ERROR - aiogram.event - Cause exception while process update id=103121694 by bot id=6839478389
+AttributeError: property 'model_name' of 'GenerativeModel' object has no setter
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 79, in ai_handler_message
+    model.model_name = data.get('model')
+    ^^^^^^^^^^^^^^^^
+AttributeError: property 'model_name' of 'GenerativeModel' object has no setter
+2025-09-22 16:36:13,809 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-22 16:36:13,809 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:36:13,809 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-22 16:36:22,071 - INFO - buttons.buttons - Default commands set.
+2025-09-22 16:36:22,071 - INFO - aiogram.dispatcher - Start polling
+2025-09-22 16:36:22,382 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:36:23,302 - INFO - buttons.buttons - User 631886740 requested model selection info.
+2025-09-22 16:36:23,302 - INFO - aiogram.event - Update id=103121695 is handled. Duration 610 ms by bot id=6839478389
+2025-09-22 16:36:27,295 - INFO - buttons.buttons - User 631886740 selected model: gemini-2.5-pro
+2025-09-22 16:36:27,295 - INFO - aiogram.event - Update id=103121696 is handled. Duration 925 ms by bot id=6839478389
+2025-09-22 16:36:31,594 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What model are you right now?
+2025-09-22 16:36:31,800 - INFO - aiogram.event - Update id=103121697 is not handled. Duration 205 ms by bot id=6839478389
+2025-09-22 16:36:31,800 - ERROR - aiogram.event - Cause exception while process update id=103121697 by bot id=6839478389
+TypeError: 'str' object is not callable
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 79, in ai_handler_message
+    model.model_name(data.get('model'))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+2025-09-22 16:36:55,022 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-22 16:36:55,023 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:36:55,023 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-22 16:37:12,747 - INFO - buttons.buttons - Default commands set.
+2025-09-22 16:37:12,747 - INFO - aiogram.dispatcher - Start polling
+2025-09-22 16:37:13,058 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:37:13,573 - INFO - buttons.buttons - User 631886740 started the bot.
+2025-09-22 16:37:14,288 - INFO - aiogram.event - Update id=103121698 is handled. Duration 714 ms by bot id=6839478389
+2025-09-22 16:37:15,829 - INFO - buttons.buttons - User 631886740 requested model selection info.
+2025-09-22 16:37:15,829 - INFO - aiogram.event - Update id=103121699 is handled. Duration 313 ms by bot id=6839478389
+2025-09-22 16:37:17,974 - INFO - buttons.buttons - User 631886740 selected model: gemini-2.5-pro
+2025-09-22 16:37:17,974 - INFO - aiogram.event - Update id=103121700 is handled. Duration 925 ms by bot id=6839478389
+2025-09-22 16:37:28,179 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What model are you?
+2025-09-22 16:37:28,352 - INFO - aiogram.event - Update id=103121701 is not handled. Duration 173 ms by bot id=6839478389
+2025-09-22 16:37:28,352 - ERROR - aiogram.event - Cause exception while process update id=103121701 by bot id=6839478389
+TypeError: 'str' object is not callable
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/messages_ai_handler.py", line 79, in ai_handler_message
+    model.model_name(UserSettings.model)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+2025-09-22 16:39:39,276 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-22 16:39:39,277 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:39:39,277 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-22 16:40:01,067 - INFO - buttons.buttons - Default commands set.
+2025-09-22 16:40:01,067 - INFO - aiogram.dispatcher - Start polling
+2025-09-22 16:40:01,297 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:40:04,153 - INFO - buttons.buttons - User 631886740 requested model selection info.
+2025-09-22 16:40:04,153 - INFO - aiogram.event - Update id=103121702 is handled. Duration 626 ms by bot id=6839478389
+2025-09-22 16:40:05,065 - INFO - aiogram.event - Update id=103121703 is not handled. Duration 0 ms by bot id=6839478389
+2025-09-22 16:40:27,607 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-22 16:40:27,607 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:40:27,607 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-22 16:40:38,850 - INFO - buttons.buttons - Default commands set.
+2025-09-22 16:40:38,851 - INFO - aiogram.dispatcher - Start polling
+2025-09-22 16:40:39,157 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:40:40,079 - INFO - buttons.buttons - User 631886740 requested model selection info.
+2025-09-22 16:40:40,079 - INFO - aiogram.event - Update id=103121704 is handled. Duration 754 ms by bot id=6839478389
+2025-09-22 16:40:42,227 - INFO - buttons.buttons - User 631886740 selected model: gemini-2.5-flash-preview
+2025-09-22 16:40:42,227 - INFO - aiogram.event - Update id=103121705 is handled. Duration 932 ms by bot id=6839478389
+2025-09-22 16:41:03,283 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-22 16:41:03,284 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:41:03,284 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-22 16:41:07,460 - INFO - buttons.buttons - Default commands set.
+2025-09-22 16:41:07,460 - INFO - aiogram.dispatcher - Start polling
+2025-09-22 16:41:07,566 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:41:11,888 - INFO - buttons.buttons - User 631886740 requested model selection info.
+2025-09-22 16:41:11,888 - INFO - aiogram.event - Update id=103121706 is handled. Duration 452 ms by bot id=6839478389
+2025-09-22 16:41:13,166 - INFO - buttons.buttons - User 631886740 selected model: gemini-2.5-flash-preview
+2025-09-22 16:41:13,166 - INFO - aiogram.event - Update id=103121707 is handled. Duration 351 ms by bot id=6839478389
+2025-09-22 16:41:17,249 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: What model are you?
+2025-09-22 16:41:18,486 - INFO - aiogram.event - Update id=103121708 is handled. Duration 1236 ms by bot id=6839478389
+2025-09-22 16:41:47,904 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-22 16:41:47,904 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:41:47,905 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-22 16:44:11,118 - INFO - buttons.buttons - Default commands set.
+2025-09-22 16:44:11,118 - INFO - aiogram.dispatcher - Start polling
+2025-09-22 16:44:11,279 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:44:16,958 - INFO - buttons.buttons - User 631886740 requested model selection info.
+2025-09-22 16:44:16,958 - INFO - aiogram.event - Update id=103121709 is handled. Duration 617 ms by bot id=6839478389
+2025-09-22 16:44:18,189 - INFO - aiogram.event - Update id=103121710 is not handled. Duration 312 ms by bot id=6839478389
+2025-09-22 16:44:18,189 - ERROR - aiogram.event - Cause exception while process update id=103121710 by bot id=6839478389
+AttributeError: property 'model_name' of 'GenerativeModel' object has no setter
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/buttons/buttons.py", line 77, in model_selection_callback
+    model.model_name = selected_model
+    ^^^^^^^^^^^^^^^^
+AttributeError: property 'model_name' of 'GenerativeModel' object has no setter
+2025-09-22 16:52:05,052 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-22 16:52:05,054 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-22 16:52:05,054 - INFO - aiogram.dispatcher - Polling stopped
