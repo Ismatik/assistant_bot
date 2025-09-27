@@ -74,9 +74,9 @@ async def ai_handles_chat(prompt: str, history: list = None, model_name: str = "
         return "Sorry, I couldn't process your request at the moment.", history
 
 # --- 4. Modify the main handler to use FSM ---
-@router.message(F.text)
+@router.message(F.text & ~F.text.startswith("/"))
 async def ai_handler_message(message: types.Message, state: FSMContext, bot: Bot):
-    # Ignore commands
+    # Extra guard in case other routers mis-route command messages.
     if message.text.startswith('/'):
         return
     
