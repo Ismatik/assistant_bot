@@ -8,7 +8,6 @@ from aiogram.fsm.state import State, StatesGroup
 import google.generativeai as genai
 from utils.utils import AIConversation, UserSettings
 
-from buttons.buttons import select_model_command
 from config_reader import config, CONFIG_SYSTEM_INSTRUCTION_TEXT
 import requests
 
@@ -37,24 +36,33 @@ my_safety_settings = [
     }
 ]
 
-model_name = select_model_command()
-model = genai.GenerativeModel(model_name=model_name,
-                              generation_config=my_configs,
-                              safety_settings=my_safety_settings,
-                              system_instruction=system_instruction_text) # Use a modern, available model
+
+_MODEL_CACHE: dict[str, genai.GenerativeModel] = {}
+
+
+def _ensure_model(model_name: str) -> genai.GenerativeModel:
+    if model_name not in _MODEL_CACHE:
+        _MODEL_CACHE[model_name] = genai.GenerativeModel(
+            model_name=model_name,
+            generation_config=my_configs,
+            safety_settings=my_safety_settings,
+            system_instruction=system_instruction_text,
+        )
+    return _MODEL_CACHE[model_name]
 
 
 logger = logging.getLogger(__name__)
 router = Router()
 
-async def ai_handles_chat(prompt: str, history: list = None):
+async def ai_handles_chat(prompt: str, history: list = None, model_name: str = "gemini-2.5-pro"):
     """
     Manages a multi-turn conversation with Gemini.
     """
     try:
+        model = _ensure_model(model_name)
         # Start a chat session with the provided history
         chat = model.start_chat(history=history or [])
-        
+
         # Send the user's message and get the response
         response = await chat.send_message_async(prompt)
         
@@ -77,15 +85,18 @@ async def ai_handler_message(message: types.Message, state: FSMContext, bot: Bot
     logger.info(f"User {user.id} sent prompt: {user_prompt}")
     
     await bot.send_chat_action(chat_id=user.id, action="typing")
-    
+
     # Get the current conversation history from the FSM state
     data = await state.get_data()
-    print(model)
-
+    selected_model = data.get("model", "gemini-2.5-pro")
     history = data.get('history', [])
-    
+
     # Get the AI's response AND the new, updated history
-    ai_response_text, new_history = await ai_handles_chat(user_prompt, history)
+    ai_response_text, new_history = await ai_handles_chat(
+        user_prompt,
+        history,
+        model_name=selected_model,
+    )
     
 
     await state.update_data(history=new_history)

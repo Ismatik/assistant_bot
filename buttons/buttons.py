@@ -6,8 +6,6 @@ from aiogram.fsm.state import State, StatesGroup
 from google import genai
 from config_reader import config
 from utils.utils import UserSettings
-from handlers.messages_ai_handler import model
-
 client = genai.Client(api_key=config.gemini_api_key.get_secret_value())
 # model = 'gemini-2.5-pro'
 
