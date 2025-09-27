@@ -5,6 +5,7 @@ import asyncio
 import shutil
 from handlers.messages_ai_handler import router as ai_router
 from handlers.song_handler import router as song_router
+from handlers.task_handler import router as task_router
 
 from buttons.buttons import router as buttons_router
 from buttons.buttons import set_default_commands
@@ -54,6 +55,7 @@ async def main():
 
     dp.include_router(buttons_router)
     dp.include_router(song_router)
+    dp.include_router(task_router)
     dp.include_router(ai_router)
     await set_default_commands(bot)
     await dp.start_polling(bot)
