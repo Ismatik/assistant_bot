@@ -142,3 +142,44 @@ def summarise_weather(data: dict[str, Any]) -> str:
         raise WeatherServiceError("Weather payload is missing required fields.") from exc
 
     return f"Current weather in {city}: {temperature}°C, {description.capitalize()}."
+
+
+
+
+# import requests
+# from config_reader import config
+
+# OPENWEATHER_API_KEY = config.weather_api_key.get_secret_value()
+# BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
+
+# def get_weather_data(city_name):
+#     params = {
+#         "q": city_name,
+#         "appid": OPENWEATHER_API_KEY,
+#         "units": "metric"
+#     }
+#     response = requests.get(BASE_URL, params=params)
+#     response.raise_for_status()
+#     return response.json()
+
+# def format_weather_info(data):
+#     city = data.get("name")
+#     weather = data["weather"][0]["description"].capitalize()
+#     temp = data["main"]["temp"]
+#     feels_like = data["main"]["feels_like"]
+#     humidity = data["main"]["humidity"]
+#     wind_speed = data["wind"]["speed"]
+
+#     return (
+#         f"🌤️ Weather in <b>{city}</b>:\n"
+#         f"Condition: <b>{weather}</b>\n"
+#         f"Temperature: <b>{temp}°C</b> (feels like {feels_like}°C)\n"
+#         f"Humidity: <b>{humidity}%</b>\n"
+#         f"Wind speed: <b>{wind_speed} m/s</b>"
+#     )
+
+# if __name__ == "__main__":
+#     city = "Душанбе"
+#     data = get_weather_data(city)
+#     message = format_weather_info(data)
+#     print(message)

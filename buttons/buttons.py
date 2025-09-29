@@ -100,7 +100,6 @@ async def help_command(message: types.Message):
         "/help - Show this help message\n"
         "/song - Search YouTube and send back audio.(e.g. /song Name of song)\n"
         "/tasks - Manage your personal to-do list\n"
-        "/song - Search YouTube and send back audio\n"
         "/select_model - Select AI model\n"
     )
 

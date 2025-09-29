@@ -8,6 +8,7 @@ from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+import html
 
 from utils import task_storage
 
@@ -19,16 +20,59 @@ class TaskStates(StatesGroup):
     waiting_for_task_text = State()
 
 
+_TASK_STATE_FLAG_KEY = "_task_state_active"
+_TASK_PREVIOUS_STATE_KEY = "_task_previous_state"
+_TASK_NONE_SENTINEL = "__task_state_none__"
+
+
+async def _remember_previous_state(state: FSMContext) -> None:
+    data = await state.get_data()
+    if data.get(_TASK_STATE_FLAG_KEY):
+        return
+
+    previous_state = await state.get_state()
+    stored_state = previous_state or _TASK_NONE_SENTINEL
+    await state.update_data(
+        **{
+            _TASK_STATE_FLAG_KEY: True,
+            _TASK_PREVIOUS_STATE_KEY: stored_state,
+        }
+    )
+
+
+async def _restore_previous_state(state: FSMContext) -> None:
+    data = await state.get_data()
+    if not data.get(_TASK_STATE_FLAG_KEY):
+        current_state = await state.get_state()
+        if current_state == TaskStates.waiting_for_task_text.state:
+            await state.set_state(None)
+        return
+
+    stored_state = data.get(_TASK_PREVIOUS_STATE_KEY)
+    await state.update_data(
+        **{
+            _TASK_STATE_FLAG_KEY: False,
+            _TASK_PREVIOUS_STATE_KEY: None,
+        }
+    )
+
+    if stored_state in (None, _TASK_NONE_SENTINEL):
+        await state.set_state(None)
+    else:
+        await state.set_state(stored_state)
+
 def _format_tasks(tasks: List[dict]) -> str:
     if not tasks:
         return (
             "You don't have any saved tasks yet.\n"
-            "Use the button below or send /addtask <task> to record one."
+            "Use the button below or send <code>/addtask &lt;task&gt;</code> to record one."
         )
 
     lines = ["🗒️ <b>Your tasks:</b>"]
     for idx, task in enumerate(tasks, start=1):
-        lines.append(f"{idx}. {task['text']}")
+        # Escape user input to avoid unsupported HTML tags
+        safe_text = html.escape(task['text'])
+        lines.append(f"{idx}. {safe_text}")
     lines.append("\nTap a button to add a task or mark one as done.")
     return "\n".join(lines)
 
@@ -66,7 +110,7 @@ async def _send_task_overview(message: types.Message, tasks: List[dict]) -> None
 
 @router.message(Command("tasks"))
 async def tasks_command(message: types.Message, state: FSMContext) -> None:
-    await state.clear()
+    await _restore_previous_state(state)
     tasks = task_storage.list_tasks(message.from_user.id)
     await _send_task_overview(message, tasks)
 
@@ -91,6 +135,7 @@ async def add_task_command(message: types.Message) -> None:
 @router.callback_query(F.data == "task_add")
 async def task_add_button(callback_query: types.CallbackQuery, state: FSMContext) -> None:
     await callback_query.answer()
+    await _remember_previous_state(state)
     await state.set_state(TaskStates.waiting_for_task_text)
     await callback_query.message.answer(
         "Please send me the task description.\nSend /cancel to stop adding a task.",
@@ -106,7 +151,7 @@ async def capture_task_text(message: types.Message, state: FSMContext) -> None:
 
     task = task_storage.add_task(message.from_user.id, task_text)
     logger.info("Added task %s for user %s", task["id"], message.from_user.id)
-    await state.clear()
+    await _restore_previous_state(state)
     tasks = task_storage.list_tasks(message.from_user.id)
     await message.answer("✅ Task saved.")
     await _send_task_overview(message, tasks)
@@ -114,7 +159,7 @@ async def capture_task_text(message: types.Message, state: FSMContext) -> None:
 
 @router.message(Command("cancel"), TaskStates.waiting_for_task_text)
 async def cancel_task_add(message: types.Message, state: FSMContext) -> None:
-    await state.clear()
+    await _restore_previous_state(state)
     await message.answer("Task creation cancelled.")
 
 
