@@ -56,6 +56,7 @@ class Settings(BaseSettings):
     bot_token: SecretStr
     gemini_api_key: SecretStr
     weather_api_key: SecretStr | None = None
+
     weather_broadcast_cities: List[str] = []
     weather_broadcast_chat_ids: List[int] = []
     weather_broadcast_time: dtime | None = None
@@ -82,5 +83,7 @@ class Settings(BaseSettings):
         if isinstance(value, str) and value.strip():
             return dtime.fromisoformat(value)
         return value
+
+    model_config = SettingsConfigDict(env_file = ".env", env_file_encoding = "utf-8")
 
 config = Settings()
