@@ -1,15 +1,18 @@
-from aiogram import Bot, Dispatcher
-from config_reader import config
-from config_reader import USER_ACTIVITY_LOG_FILE
 import asyncio
+import contextlib
+import logging
 import shutil
+
+from aiogram import Bot, Dispatcher
+
+from config_reader import USER_ACTIVITY_LOG_FILE, config
 from handlers.messages_ai_handler import router as ai_router
 from handlers.song_handler import router as song_router
 
 from buttons.buttons import router as buttons_router
 from buttons.buttons import set_default_commands
 
-import logging
+from utils.weather_broadcast import broadcast_daily_weather
 
 
 bot = Bot(token = config.bot_token.get_secret_value())
@@ -56,7 +59,39 @@ async def main():
     dp.include_router(song_router)
     dp.include_router(ai_router)
     await set_default_commands(bot)
-    await dp.start_polling(bot)
+
+    broadcast_task = None
+    if (
+        config.weather_broadcast_time
+        and config.weather_broadcast_cities
+        and config.weather_broadcast_chat_ids
+    ):
+        logging.info(
+            "Scheduling daily weather broadcast at %s for %d chat(s).",
+            config.weather_broadcast_time.strftime("%H:%M"),
+            len(config.weather_broadcast_chat_ids),
+        )
+        broadcast_task = asyncio.create_task(
+            broadcast_daily_weather(
+                bot,
+                config.weather_broadcast_chat_ids,
+                config.weather_broadcast_cities,
+                send_at=config.weather_broadcast_time,
+            )
+        )
+    else:
+        logging.info(
+            "Weather broadcast disabled. Provide WEATHER_BROADCAST_CHAT_IDS, "
+            "WEATHER_BROADCAST_CITIES and WEATHER_BROADCAST_TIME to enable it."
+        )
+
+    try:
+        await dp.start_polling(bot)
+    finally:
+        if broadcast_task:
+            broadcast_task.cancel()
+            with contextlib.suppress(asyncio.CancelledError):
+                await broadcast_task
     
     
 if __name__ == "__main__":
