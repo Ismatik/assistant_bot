@@ -47,9 +47,10 @@ CONFIG_SYSTEM_INSTRUCTION_TEXT = (
 )
 
 class Settings(BaseSettings):
-    
+
     bot_token: SecretStr
     gemini_api_key: SecretStr
+    weather_api_key: SecretStr | None = None
     model_config = SettingsConfigDict(env_file = ".env", env_file_encoding = "utf-8")
-    
+
 config = Settings()
