@@ -1,5 +1,10 @@
+from __future__ import annotations
+
+from datetime import time as dtime
+from typing import List
+
 from pydantic_settings import BaseSettings, SettingsConfigDict
-from pydantic import SecretStr
+from pydantic import SecretStr, field_validator
 
 # Paths to files
 USER_ACTIVITY_LOG_FILE = "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/files/user_activity.log"
@@ -51,6 +56,34 @@ class Settings(BaseSettings):
     bot_token: SecretStr
     gemini_api_key: SecretStr
     weather_api_key: SecretStr | None = None
+
+    weather_broadcast_cities: List[str] = []
+    weather_broadcast_chat_ids: List[int] = []
+    weather_broadcast_time: dtime | None = None
+    model_config = SettingsConfigDict(env_file = ".env", env_file_encoding = "utf-8")
+
+    @field_validator("weather_broadcast_cities", mode="before")
+    @classmethod
+    def _parse_cities(cls, value):  # type: ignore[override]
+        if isinstance(value, str):
+            return [part.strip() for part in value.split(",") if part.strip()]
+        return value
+
+    @field_validator("weather_broadcast_chat_ids", mode="before")
+    @classmethod
+    def _parse_chat_ids(cls, value):  # type: ignore[override]
+        if isinstance(value, str):
+            cleaned = [part.strip() for part in value.split(",") if part.strip()]
+            return [int(chat_id) for chat_id in cleaned]
+        return value
+
+    @field_validator("weather_broadcast_time", mode="before")
+    @classmethod
+    def _parse_time(cls, value):  # type: ignore[override]
+        if isinstance(value, str) and value.strip():
+            return dtime.fromisoformat(value)
+        return value
+
     model_config = SettingsConfigDict(env_file = ".env", env_file_encoding = "utf-8")
 
 config = Settings()
