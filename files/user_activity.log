@@ -4896,3 +4896,21 @@ google.api_core.exceptions.NotFound: 404 models/gemini-2.5-flash-preview is not 
 2025-09-29 17:52:39,220 - WARNING - aiogram.dispatcher - Received SIGINT signal
 2025-09-29 17:52:39,221 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
 2025-09-29 17:52:39,221 - INFO - aiogram.dispatcher - Polling stopped
+2025-09-30 10:59:33,578 - INFO - root - External tools ffmpeg and yt-dlp detected. Ensure downloads comply with YouTube's Terms of Service.
+2025-09-30 10:59:39,287 - INFO - buttons.buttons - Default commands set.
+2025-09-30 10:59:39,287 - INFO - root - Weather broadcast disabled. Provide WEATHER_BROADCAST_CHAT_IDS, WEATHER_BROADCAST_CITIES and WEATHER_BROADCAST_TIME to enable it.
+2025-09-30 10:59:39,288 - INFO - aiogram.dispatcher - Start polling
+2025-09-30 10:59:39,595 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-30 11:06:00,152 - INFO - aiogram.event - Update id=103121764 is handled. Duration 353 ms by bot id=6839478389
+2025-09-30 11:08:30,162 - INFO - aiogram.event - Update id=103121765 is handled. Duration 614 ms by bot id=6839478389
+2025-09-30 11:08:37,229 - INFO - handlers.task_handler - Added task 3 for user 631886740
+2025-09-30 11:08:37,842 - INFO - aiogram.event - Update id=103121766 is handled. Duration 613 ms by bot id=6839478389
+2025-09-30 11:08:40,608 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: Hm
+2025-09-30 11:08:50,132 - INFO - aiogram.event - Update id=103121767 is handled. Duration 9524 ms by bot id=6839478389
+2025-09-30 11:08:55,968 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: 👀
+2025-09-30 11:09:04,876 - INFO - aiogram.event - Update id=103121768 is handled. Duration 8908 ms by bot id=6839478389
+2025-09-30 11:09:12,555 - INFO - handlers.messages_ai_handler - User 631886740 sent prompt: For now nah, its fine
+2025-09-30 11:09:17,779 - INFO - aiogram.event - Update id=103121769 is handled. Duration 5225 ms by bot id=6839478389
+2025-09-30 11:17:43,807 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-09-30 11:17:43,807 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-09-30 11:17:43,807 - INFO - aiogram.dispatcher - Polling stopped

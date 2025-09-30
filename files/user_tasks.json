@@ -7,6 +7,10 @@
     {
       "id": 2,
       "text": "Do weather part for bot - broadcast"
+    },
+    {
+      "id": 3,
+      "text": "Deploy the bot"
     }
   ]
 }

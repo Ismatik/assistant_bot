@@ -50,6 +50,35 @@ The script sets up logging to both STDOUT and `files/user_activity.log` (see `co
 | `/clear` | Clears the current list of tasks. |
 | `/select_model` | Presents Gemini model options for the chat experience. |
 
+## Structure
+
+assistant_bot/
+├── README.md
+├── requirements.txt
+├── config_reader.py
+├── ismat_assistant_bot.py
+├── __init__.py
+├── buttons/
+│   └── buttons.py
+├── handlers/
+│   ├── messages_ai_handler.py
+│   ├── song_handler.py
+│   └── task_handler.py
+├── utils/
+│   ├── task_storage.py
+│   ├── utils.py
+│   ├── weather.py
+│   └── weather_broadcast.py
+├── tests/
+│   ├── test_ai_handler.py
+│   ├── test_task_storage.py
+│   ├── test_weather.py
+│   └── test_weather_broadcast.py
+├── docs/
+│   └── song_handler_overview.md
+└── files/
+    └── user_activity.log
+
 ## Logging and Data Storage
 - **Log location:** `files/user_activity.log` (configured in `config_reader.py`).
 - **Retention:** Logs grow over time; rotate or archive them periodically if deploying long term.
