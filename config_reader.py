@@ -60,30 +60,56 @@ class Settings(BaseSettings):
     weather_broadcast_cities: List[str] = []
     weather_broadcast_chat_ids: List[int] = []
     weather_broadcast_time: dtime | None = None
-    model_config = SettingsConfigDict(env_file = ".env", env_file_encoding = "utf-8")
+    
+    # model_config = SettingsConfigDict(env_file = ".env", env_file_encoding = "utf-8")
+
+    # @field_validator("weather_broadcast_cities", mode="before")
+    # @classmethod
+    # def _parse_cities(cls, value):  # type: ignore[override]
+    #     if isinstance(value, str):
+    #         return [part.strip() for part in value.split(",") if part.strip()]
+    #     return value
+
+    # @field_validator("weather_broadcast_chat_ids", mode="before")
+    # @classmethod
+    # def _parse_chat_ids(cls, value):  # type: ignore[override]
+    #     if isinstance(value, str):
+    #         cleaned = [part.strip() for part in value.split(",") if part.strip()]
+    #         return [int(chat_id) for chat_id in cleaned]
+    #     return value
+
+    # @field_validator("weather_broadcast_time", mode="before")
+    # @classmethod
+    # def _parse_time(cls, value):  # type: ignore[override]
+    #     if isinstance(value, str) and value.strip():
+    #         return dtime.fromisoformat(value)
+    #     return value
+
 
     @field_validator("weather_broadcast_cities", mode="before")
     @classmethod
-    def _parse_cities(cls, value):  # type: ignore[override]
+    def _parse_cities(cls, value: str | List[str]) -> List[str]:
         if isinstance(value, str):
+            # If it's a string, split it by the comma.
             return [part.strip() for part in value.split(",") if part.strip()]
         return value
 
     @field_validator("weather_broadcast_chat_ids", mode="before")
     @classmethod
-    def _parse_chat_ids(cls, value):  # type: ignore[override]
+    def _parse_chat_ids(cls, value: str | List[int]) -> List[int]:
         if isinstance(value, str):
+            # Split the string by comma and convert each part to an integer.
             cleaned = [part.strip() for part in value.split(",") if part.strip()]
             return [int(chat_id) for chat_id in cleaned]
         return value
 
     @field_validator("weather_broadcast_time", mode="before")
     @classmethod
-    def _parse_time(cls, value):  # type: ignore[override]
+    def _parse_time(cls, value: str | dtime | None) -> dtime | None:
         if isinstance(value, str) and value.strip():
             return dtime.fromisoformat(value)
         return value
-
+    
     model_config = SettingsConfigDict(env_file = ".env", env_file_encoding = "utf-8")
 
 config = Settings()
