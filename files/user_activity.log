@@ -5199,3 +5199,82 @@ AttributeError: 'NoneType' object has no attribute 'strip'
 2025-10-03 14:42:13,827 - WARNING - aiogram.dispatcher - Received SIGINT signal
 2025-10-03 14:42:13,828 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
 2025-10-03 14:42:13,828 - INFO - aiogram.dispatcher - Polling stopped
+2025-10-03 14:49:00,372 - INFO - root - External tools ffmpeg and yt-dlp detected. Ensure downloads comply with YouTube's Terms of Service.
+2025-10-03 14:49:01,481 - INFO - buttons.buttons - Default commands set.
+2025-10-03 14:49:01,481 - INFO - root - Weather broadcast disabled. Provide WEATHER_BROADCAST_CHAT_IDS, WEATHER_BROADCAST_CITIES and WEATHER_BROADCAST_TIME to enable it.
+2025-10-03 14:49:01,481 - INFO - aiogram.dispatcher - Start polling
+2025-10-03 14:49:01,788 - INFO - aiogram.dispatcher - Run polling for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-10-03 14:49:30,052 - INFO - aiogram.event - Update id=103121788 is not handled. Duration 0 ms by bot id=6839478389
+2025-10-03 14:49:30,052 - ERROR - aiogram.event - Cause exception while process update id=103121788 by bot id=6839478389
+AttributeError: 'NoneType' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/ikki/Desktop/Practice/Assistant_bot/assistant_bot/handlers/weather_handler.py", line 17, in get_weather_command
+    city = command.args.strip()
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2025-10-03 14:49:34,047 - INFO - handlers.weather_handler - User 631886740 requested weather for city: Monaco
+2025-10-03 14:49:43,264 - INFO - aiogram.event - Update id=103121789 is handled. Duration 9218 ms by bot id=6839478389
+2025-10-03 14:49:50,450 - INFO - handlers.weather_handler - User 631886740 requested weather for city: Dushanbe
+2025-10-03 14:49:52,172 - INFO - aiogram.event - Update id=103121790 is handled. Duration 1722 ms by bot id=6839478389
+2025-10-03 14:50:49,933 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-10-03 14:50:49,934 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-10-03 14:50:49,934 - INFO - aiogram.dispatcher - Polling stopped

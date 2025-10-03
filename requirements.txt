@@ -7,4 +7,5 @@ aiofiles>=23.1.0
 typing-extensions>=4.0.0
 yt-dlp>=2024.4.9
 pytest>=7.4.0
-pydantic_settings >= 2.11.0
+pydantic-settings>=2.1.0
+requests>=2.31.0
