@@ -53,6 +53,8 @@ CONFIG_SYSTEM_INSTRUCTION_TEXT = (
 
 class Settings(BaseSettings):
 
+    model_config = SettingsConfigDict(env_file = ".env", env_file_encoding = "utf-8")
+    
     bot_token: SecretStr
     gemini_api_key: SecretStr
     weather_api_key: SecretStr | None = None
@@ -86,30 +88,27 @@ class Settings(BaseSettings):
     #     return value
 
 
-    @field_validator("weather_broadcast_cities", mode="before")
-    @classmethod
-    def _parse_cities(cls, value: str | List[str]) -> List[str]:
-        if isinstance(value, str):
-            # If it's a string, split it by the comma.
-            return [part.strip() for part in value.split(",") if part.strip()]
-        return value
+    # @field_validator("weather_broadcast_cities", mode="before")
+    # @classmethod
+    # def _parse_cities(cls, value: str | List[str]) -> List[str]:
+    #     if isinstance(value, str):
+    #         return [part.strip() for part in value.split(",") if part.strip()]
+    #     return value
 
-    @field_validator("weather_broadcast_chat_ids", mode="before")
-    @classmethod
-    def _parse_chat_ids(cls, value: str | List[int]) -> List[int]:
-        if isinstance(value, str):
-            # Split the string by comma and convert each part to an integer.
-            cleaned = [part.strip() for part in value.split(",") if part.strip()]
-            return [int(chat_id) for chat_id in cleaned]
-        return value
+    # @field_validator("weather_broadcast_chat_ids", mode="before")
+    # @classmethod
+    # def _parse_chat_ids(cls, value: str | List[int]) -> List[int]:
+    #     if isinstance(value, str):
+    #         cleaned = [part.strip() for part in value.split(",") if part.strip()]
+    #         return [int(chat_id) for chat_id in cleaned]
+    #     return value
 
-    @field_validator("weather_broadcast_time", mode="before")
-    @classmethod
-    def _parse_time(cls, value: str | dtime | None) -> dtime | None:
-        if isinstance(value, str) and value.strip():
-            return dtime.fromisoformat(value)
-        return value
+    # @field_validator("weather_broadcast_time", mode="before")
+    # @classmethod
+    # def _parse_time(cls, value: str | dtime | None) -> dtime | None:
+    #     if isinstance(value, str) and value.strip():
+    #         return dtime.fromisoformat(value)
+    #     return value
     
-    model_config = SettingsConfigDict(env_file = ".env", env_file_encoding = "utf-8")
 
 config = Settings()

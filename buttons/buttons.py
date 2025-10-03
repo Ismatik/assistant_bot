@@ -98,9 +98,10 @@ async def help_command(message: types.Message):
         "Available commands:\n"
         "/start - Start the bot\n"
         "/help - Show this help message\n"
-        "/song - Search YouTube and send back audio.(e.g. /song Name of song)\n"
+        "/song <name of the song> - Search YouTube and send back audio.(e.g. /song Name of song)\n"
         "/tasks - Manage your personal to-do list\n"
         "/select_model - Select AI model\n"
+        "/weather <city> - Get the current weather for any city (e.g. /weather Dushanbe)\n"
     )
 
     logger.info(f"User {message.from_user.id} requested help.")
@@ -114,6 +115,7 @@ async def set_default_commands(bot: Bot):
         types.BotCommand(command="/song", description="Download a song from YouTube"),
         types.BotCommand(command="/clear", description="Clear conversation history"),
         types.BotCommand(command="/select_model", description="Select AI model"),
+        types.BotCommand(command="/weather", description="Weather for city you ask")
     ]
     await bot.set_my_commands(commands)
     logger.info("Default commands set.")

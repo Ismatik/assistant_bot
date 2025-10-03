@@ -18,18 +18,47 @@ from utils.weather import (
 LOGGER = logging.getLogger(__name__)
 
 
-def format_weather_info(data: dict) -> str:
+def _weather_emoji(description: str, temp: float) -> str:
+    desc = description.lower()
+    if "snow" in desc:
+        return "❄️"
+    if "rain" in desc or "drizzle" in desc:
+        return "🌧️"
+    if "thunder" in desc:
+        return "⛈️"
+    if "clear" in desc:
+        return "☀️" if temp > 0 else "🌤️"
+    if "cloud" in desc:
+        return "☁️" if temp < 10 else "🌥️"
+    if "fog" in desc or "mist" in desc or "haze" in desc:
+        return "🌫️"
+    if temp <= 0:
+        return "🥶"
+    if temp >= 30:
+        return "🔥"
+    return "🌡️"
+
+def format_weather_info(data: dict, requested_city: str | None = None) -> str:
     """Return a formatted HTML weather summary using the user's template."""
 
     city = data.get("name")
+    country = data.get("sys", {}).get("country", "")
     weather = data["weather"][0]["description"].capitalize()
     temp = data["main"]["temp"]
     feels_like = data["main"]["feels_like"]
     humidity = data["main"]["humidity"]
     wind_speed = data["wind"]["speed"]
 
+    emoji = _weather_emoji(weather, temp)
+
+    city_line = f"<b>{city}</b>"
+    if country:
+        city_line += f" ({country})"
+    if requested_city and city and requested_city.lower() != city.lower():
+        city_line += f"\n<i>Note: Closest match for '{requested_city}'</i>"
+
     return (
-        f"🌤️ Weather in <b>{city}</b>:\n"
+        f"{emoji} Weather in {city_line}:\n"
         f"Condition: <b>{weather}</b>\n"
         f"Temperature: <b>{temp}°C</b> (feels like {feels_like}°C)\n"
         f"Humidity: <b>{humidity}%</b>\n"
@@ -60,13 +89,12 @@ def build_weather_digest(
             sections.append(f"⚠️ Failed to load weather for {city}: {exc}")
         else:
             try:
-                sections.append(format_weather_info(payload))
+                sections.append(format_weather_info(payload, requested_city=city))
             except (KeyError, IndexError, TypeError) as exc:
                 LOGGER.exception("Malformed weather payload for %s", city)
                 sections.append(f"⚠️ Received unexpected data for {city}: {exc}")
 
     return "\n\n".join(sections)
-
 
 def _seconds_until(send_at: time, *, now: datetime | None = None) -> float:
     """Return the number of seconds until the next *send_at* occurrence."""

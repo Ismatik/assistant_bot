@@ -9,6 +9,7 @@ from config_reader import USER_ACTIVITY_LOG_FILE, config
 from handlers.messages_ai_handler import router as ai_router
 from handlers.song_handler import router as song_router
 from handlers.task_handler import router as task_router
+from handlers.weather_handler import router as weather_router
 
 from buttons.buttons import router as buttons_router
 from buttons.buttons import set_default_commands
@@ -48,10 +49,10 @@ async def main():
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
-        handlers={
+        handlers=[
             logging.FileHandler(USER_ACTIVITY_LOG_FILE , mode = "a"),
             logging.StreamHandler()
-        }
+        ]
     )
 
     verify_external_tools()
@@ -60,6 +61,7 @@ async def main():
     dp.include_router(task_router)
     dp.include_router(song_router)
     dp.include_router(ai_router)
+    dp.include_router(weather_router)
     await set_default_commands(bot)
 
     broadcast_task = None
