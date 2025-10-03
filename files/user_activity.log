@@ -5196,3 +5196,6 @@ AttributeError: 'NoneType' object has no attribute 'strip'
 2025-10-03 14:38:52,487 - INFO - aiogram.event - Update id=103121786 is handled. Duration 3693 ms by bot id=6839478389
 2025-10-03 14:39:45,432 - INFO - buttons.buttons - User 631886740 requested help.
 2025-10-03 14:39:45,734 - INFO - aiogram.event - Update id=103121787 is handled. Duration 302 ms by bot id=6839478389
+2025-10-03 14:42:13,827 - WARNING - aiogram.dispatcher - Received SIGINT signal
+2025-10-03 14:42:13,828 - INFO - aiogram.dispatcher - Polling stopped for bot @ismat_assistant_bot id=6839478389 - "Ismat's AI Assistant"
+2025-10-03 14:42:13,828 - INFO - aiogram.dispatcher - Polling stopped
