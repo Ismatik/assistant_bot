@@ -89,15 +89,50 @@ if "config_reader" not in sys.modules:
     sys.modules["config_reader"] = config_reader_module
 
 if "requests" not in sys.modules:
-    requests_module = SimpleNamespace()
+    import types as _types
+    requests_module = _types.ModuleType("requests")
+    exceptions_module = _types.ModuleType("requests.exceptions")
 
     class _RequestException(Exception):
         pass
 
+    class _ConnectionError(_RequestException):
+        pass
+
+    class _ChunkedEncodingError(_RequestException):
+        pass
+
+    class _Timeout(_RequestException):
+        pass
+
+    class _HTTPError(_RequestException):
+        pass
+
+    class _ProxyError(_RequestException):
+        pass
+
+    class _SSLError(_RequestException):
+        pass
+
+    exceptions_module.RequestException = _RequestException
+    exceptions_module.ConnectionError = _ConnectionError
+    exceptions_module.ChunkedEncodingError = _ChunkedEncodingError
+    exceptions_module.Timeout = _Timeout
+    exceptions_module.HTTPError = _HTTPError
+    exceptions_module.ProxyError = _ProxyError
+    exceptions_module.SSLError = _SSLError
+
     requests_module.RequestException = _RequestException
-    requests_module.exceptions = SimpleNamespace(RequestException=_RequestException)
+    requests_module.ConnectionError = _ConnectionError
+    requests_module.ChunkedEncodingError = _ChunkedEncodingError
+    requests_module.Timeout = _Timeout
+    requests_module.HTTPError = _HTTPError
+    requests_module.ProxyError = _ProxyError
+    requests_module.SSLError = _SSLError
+    requests_module.exceptions = exceptions_module
 
     sys.modules["requests"] = requests_module
+    sys.modules["requests.exceptions"] = exceptions_module
 
 from assistant_bot.handlers.messages_ai_handler import ai_handler_message
 
